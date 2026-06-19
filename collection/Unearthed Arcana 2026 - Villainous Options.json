@@ -31,6 +31,9 @@
 			"className": "Druid",
 			"classSource": "XPHB",
 			"page": 3,
+			"reprintedAs": [
+				"Titan|Druid|XPHB|XUA2026VillainousOptionsUpdates"
+			],
 			"additionalSpells": [
 				{
 					"prepared": {
@@ -61,7 +64,7 @@
 			],
 			"subclassFeatures": [
 				"Circle of the Titan|Druid|XPHB|Titan|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
-				"Dire impact|Druid|XPHB|Titan|XUA2026VillainousOptions|6|XUA2026VillainousOptions",
+				"Dire Impact|Druid|XPHB|Titan|XUA2026VillainousOptions|6|XUA2026VillainousOptions",
 				"Primal Havoc|Druid|XPHB|Titan|XUA2026VillainousOptions|10|XUA2026VillainousOptions",
 				"Monstrous Appetite|Druid|XPHB|Titan|XUA2026VillainousOptions|14|XUA2026VillainousOptions"
 			],
@@ -74,6 +77,9 @@
 			"className": "Sorcerer",
 			"classSource": "XPHB",
 			"page": 7,
+			"reprintedAs": [
+				"Demonic|Sorcerer|XPHB|XUA2026VillainousOptionsUpdates"
+			],
 			"additionalSpells": [
 				{
 					"prepared": {
@@ -135,6 +141,9 @@
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"page": 6,
+			"reprintedAs": [
+				"Hell Knight|Fighter|XPHB|XUA2026VillainousOptionsUpdates"
+			],
 			"subclassFeatures": [
 				"Hell Knight|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
 				"Advanced Wounds|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|7|XUA2026VillainousOptions",
@@ -648,7 +657,7 @@
 			"entries": [
 				"Hell Knights are the champions of archdevils and other high-ranking fiends of the Nine Hells, such as cambions and night hags. Armed with the techniques of the Nine Hells' fiercest warriors, Hell Knights inflict infernal wounds and fight with the tenacity of a devil.",
 				"Devils and other sinister figures employ Hell Knights to enact their will across the multiverse. A Hell Knight might serve as a soldier on the front lines of the Blood War, while another might be tasked with punishing creatures that violate infernal contracts or flee their consequences. Others act as interplanar bounty hunters, hastening the journey of wicked souls to the River Styx.",
-				"A Hell Knight's relationship with the Nine Hells is transactional. Archdevils see Hell Knights as an investment, and Hell Knights benefit in turn. The Hell Knight Pursuits table lists reasons why a Fighter might become a Hell Knight.",
+				"A Hell Knight's relationship with the Nine Hells is transactional. Archdevils see Hell Knights as an investment, and Hell Knights benefit in turn. The {@table Hell Knight Pursuits|XUA2026VillainousOptions} table lists reasons why a Fighter might become a Hell Knight.",
 				{
 					"type": "statblock",
 					"tag": "table",
@@ -899,7 +908,7 @@
 			"entries": [
 				"The corruptive magic of demons courses through you, making you a conduit for the infinite layers of the Abyss and their horrors. Your gift might stem from a distant demonic ancestry, a fated encounter with a demon that cursed you, or a brush with the dark hunger of the Abyss.",
 				"The Abyss is a plane of wickedness and disorder, and this chaos echoes in your innate magic. Abyssal energy erupts from you, warping your body and surroundings in tandem with your sorcery.",
-				"These Abyssal eruptions manifest in strange and gruesome ways. Roll on or choose from the Abyssal Manifestations table to inspire how your connection to the Abyss might manifest when you channel your demonic power.",
+				"These Abyssal eruptions manifest in strange and gruesome ways. Roll on or choose from the {@table Abyssal Manifestations|XUA2026VillainousOptions} table to inspire how your connection to the Abyss might manifest when you channel your demonic power.",
 				{
 					"type": "statblock",
 					"tag": "table",
@@ -1938,6 +1947,9 @@
 			"name": "Behemoth",
 			"source": "XUA2026VillainousOptions",
 			"page": 4,
+			"reprintedAs": [
+				"Behemoth|XUA2026VillainousOptionsUpdate"
+			],
 			"size": [
 				"L",
 				"H",
@@ -2053,6 +2065,9 @@
 			"name": "Insectoid",
 			"source": "XUA2026VillainousOptions",
 			"page": 5,
+			"reprintedAs": [
+				"Insectoid|XUA2026VillainousOptionsUpdate"
+			],
 			"size": [
 				"L",
 				"H",
@@ -2158,6 +2173,9 @@
 			"name": "Leviathan",
 			"source": "XUA2026VillainousOptions",
 			"page": 4,
+			"reprintedAs": [
+				"Leviathan|XUA2026VillainousOptionsUpdate"
+			],
 			"size": [
 				"L",
 				"H",
