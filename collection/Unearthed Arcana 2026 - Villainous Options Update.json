@@ -1173,12 +1173,10 @@
 				"G"
 			],
 			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
-			"type": "humanoid",
-			"alignment": [
-				{
-					"special": "Your Alignment Doesn't Change"
-				}
-			],
+			"type": {
+				"type": "special",
+				"note": "(Your Creature Type and Alignment Don't Change)"
+			},
 			"ac": [
 				{
 					"special": "13 + your Wisdom modifier"
@@ -1290,12 +1288,10 @@
 				"G"
 			],
 			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
-			"type": "humanoid",
-			"alignment": [
-				{
-					"special": "Your Alignment Doesn't Change"
-				}
-			],
+			"type": {
+				"type": "special",
+				"note": "(Your Creature Type and Alignment Don't Change)"
+			},
 			"ac": [
 				{
 					"special": "13 + your Wisdom Modifier"
@@ -1399,12 +1395,10 @@
 				"G"
 			],
 			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
-			"type": "humanoid",
-			"alignment": [
-				{
-					"special": "Your Alignment Doesn't Change"
-				}
-			],
+			"type": {
+				"type": "special",
+				"note": "(Your Creature Type and Alignment Don't Change)"
+			},
 			"ac": [
 				{
 					"special": "13 + your Wisdom Modifier"
