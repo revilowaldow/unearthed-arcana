@@ -22,6 +22,211 @@
 		"dateAdded": 1787248083,
 		"dateLastModified": 1787248083
 	},
+	"subclass": [
+		{
+			"name": "Path of Unlight",
+			"shortName": "Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Path of Unlight|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions",
+				"Unlight Revelation|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|6|XUA2026UnderdarkOptions",
+				"Infectious Unlight|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|10|XUA2026UnderdarkOptions",
+				"Harbinger of Unlight|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|10|XUA2026UnderdarkOptions",
+				"Brilliant Rage|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|14|XUA2026UnderdarkOptions"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Path of Unlight",
+			"shortName": "Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Unleash your inner light as blazing fury}",
+				{
+					"type": "inset",
+					"name": "What is Unlight?",
+					"page": 1,
+					"entries": [
+						"The city of Deep Imaskar, home to the descendants of the ancient Imaskari empire, lies in one of the lowest levels of the Underdark. The Deep Imaskari wield a magical force known as Unlight, taught to them by {@i Imaskarcana}, sentient grimoires penned by ancient wizard-kings of the lost Imaskari empire.",
+						"The Deep Imaskari used Unlight to create the Great Seal, a magical symbol that protects and illuminates their city while nourishing crops that allow the Deep Imaskari to survive in the Underdark. But Unlight can also be used to corrupt and destroy, burning creatures from within until they die in a fiery explosion of brilliant light."
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Path of Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Barbarians infused with the power of Unlight embrace uncontrollable magic in exchange for incredible physical prowess. The Unlight burning inside them illuminates the darkness while burning and blinding the barbarian's enemies",
+				"Most barbarians on this path were first exposed to Unlight in the Underdark. The Deep Imaskari grant Unlight to chosen warriors who lead their army against the upper regions of the Underdark, and some of these soldiers have fled to pursue lives of their own. But the magic of Unlight is contagious and spreads in unpredictable ways. It infects people only briefly exposed to it and occasionally manifests in individuals who have never been to the Underdark.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unlight Manifestation|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Radiant Rage|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				}
+			]
+		},
+		{
+			"name": "Radiant Rage",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The Unlight coursing through you fuels your {@classFeature Rage|Barbarian|XPHB|1|XPHB}. If a creature hits you with a melee attack roll while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, the creature takes Radiant damage equal to your Rage Damage bonus.",
+				"Additionally, while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, you shed {@variantrule Bright Light|XPHB} in a 20-foot radius."
+			]
+		},
+		{
+			"name": "Unlight Manifestation",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Barbarians on the Path of Unlight manifest the radiant energy of Unlight when they rage, but this energy can take many forms. You can roll on or choose a result from the {@table Unlight Manifestation|XUA2026UnderdarkOptions} table to inspire the form your {@subclassFeature Radiant Rage|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions} takes.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026UnderdarkOptions",
+					"name": "Unlight Manifestation",
+					"page": 2
+				}
+			]
+		},
+		{
+			"name": "Unlight Revelation",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You have {@variantrule proficiency|XPHB} in the {@skill Perception} skill, if you lack it. You also gain {@variantrule Expertise|XPHB} in that skill.",
+				"While your rage is active, you have {@sense Blindsight|XPHB} with a range equal to that of the {@variantrule Bright Light|XPHB} provided by your {@subclassFeature Radiant Rage|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions}."
+			]
+		},
+		{
+			"name": "Harbinger of Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You have {@variantrule Resistance|XPHB} to Radiant damage."
+			]
+		},
+		{
+			"name": "Infectious Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Damage you deal with {@classFeature Brutal Strike|Barbarian|XPHB|9|XPHB} can be Radiant or the usual type (your choice). The following effect is now among your {@classFeature Brutal Strike|Barbarian|XPHB|9|XPHB} options.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"page": 2,
+					"items": [
+						{
+							"type": "item",
+							"name": "Radiant Infection",
+							"entries": [
+								"The target becomes infected with Unlight for 1 minute. While infected, it sheds {@variantrule Bright Light|XPHB} in a 10-foot radius. Additionally, at the start of each of its turns, the target takes {@damage 1d6} Radiant damage. The target makes a Constitution saving throw ({@dc 8} plus your Strength modifier and {@table Proficiency Bonus|XPHB}) at the end of each of its turns, ending the effect on itself on a success."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Brilliant Rage",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"The aura of your Unlight is bolstered. While your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, you shed {@variantrule Bright Light|XPHB} in a 30-foot radius.",
+				"As a {@variantrule Bonus Action|XPHB}, you unleash blinding brilliance. When you do, each creature of your choice within 30 feet of you makes a Constitution saving throw ({@dc 8} plus your Strength modifier and {@table Proficiency Bonus|XPHB}). On a failed save, a creature takes {@damage 1d12} Radiant damage and has the {@condition Blinded|XPHB} condition until the end of your next turn. On a successful save, a creature takes half damage only.",
+				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend a use of your {@classFeature Rage|Barbarian|XPHB|1|XPHB} (no action required) to restore your use of it."
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Unlight Revelation",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 6,
+			"entryData": {
+				"expertise": [
+					{
+						"perception": true
+					}
+				]
+			}
+		},
+		{
+			"name": "Harbinger of Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 10,
+			"entryData": {
+				"resist": [
+					"radiant"
+				]
+			}
+		}
+	],
 	"feat": [
 		{
 			"name": "Full Ceremorphosis",
@@ -593,6 +798,45 @@
 				[
 					"6",
 					"The interference of another elder brain vying for control over your mind."
+				]
+			]
+		},
+		{
+			"name": "Unlight Manifestation",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 1,
+			"colLabels": [
+				"1d6",
+				"Your Unlight Manifests As..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"White light blazing from your eyes and mouth."
+				],
+				[
+					"2",
+					"Complex arcane symbols of light etched onto your body."
+				],
+				[
+					"3",
+					"A cyclone of bright light that whirls around you."
+				],
+				[
+					"4",
+					"Cracks in your flesh that reveal burning light within."
+				],
+				[
+					"5",
+					"A ghostly form made of light that hovers above you."
+				],
+				[
+					"6",
+					"Pale fire that dances on the tip of your weapon."
 				]
 			]
 		}
