@@ -5078,8 +5078,7 @@
 							"wis",
 							"cha"
 						]
-					},
-					"max": 30
+					}
 				}
 			],
 			"resist": [
@@ -5097,8 +5096,7 @@
 							"thunder"
 						],
 						"count": 2
-					},
-					"max": 30
+					}
 				}
 			],
 			"entries": [
@@ -5279,24 +5277,6 @@
 						]
 					},
 					"max": 30
-				}
-			],
-			"resist": [
-				{
-					"resist": [
-						"acid",
-						"bludgeoning",
-						"cold",
-						"fire",
-						"lightning",
-						"necrotic",
-						"piercing",
-						"poison",
-						"slashing",
-						"thunder"
-					],
-					"note": "while entirely within Dim Light or Darkness",
-					"cond": true
 				}
 			],
 			"entries": [
