@@ -1,0 +1,1711 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2026UnderdarkOptions",
+				"abbreviation": "XUA26UO",
+				"full": "Unearthed Arcana 2026: Underdark Options",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/underdark-options/RoZy4p5SV29Elftn/UA2026-UnderdarkOptions.pdf",
+				"version": "1",
+				"dateReleased": "2026-08-20",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				]
+			}
+		],
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1787248083,
+		"dateLastModified": 1787248083,
+		"_dateLastModifiedHash": "9feab925d8"
+	},
+	"subclass": [
+		{
+			"name": "House Agent",
+			"shortName": "House Agent",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"page": 2,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": {
+							"_": [
+								"friends|XPHB#c"
+							],
+							"daily": {
+								"1e": [
+									"charm person|XPHB"
+								]
+							},
+							"ritual": [
+								"find familiar|XPHB"
+							]
+						},
+						"5": {
+							"daily": {
+								"1e": [
+									"suggestion|XPHB"
+								]
+							}
+						},
+						"9": {
+							"daily": {
+								"1e": [
+									"hypnotic pattern|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"friends|XPHB#c",
+				"charm person|XPHB",
+				"find familiar|XPHB",
+				"suggestion|XPHB",
+				"hypnotic pattern|XPHB"
+			],
+			"subclassFeatures": [
+				"House Agent|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions",
+				"Backstab|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|9|XUA2026UnderdarkOptions",
+				"Infiltration Partner|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|13|XUA2026UnderdarkOptions",
+				"Silver Tongue|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|13|XUA2026UnderdarkOptions",
+				"Subtle Manipulator|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|17|XUA2026UnderdarkOptions"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Imaskarcanist",
+			"shortName": "Imaskarcanist",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 3,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"10": {
+							"daily": {
+								"1": [
+									"glyph of warding|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"glyph of warding|XPHB"
+			],
+			"subclassFeatures": [
+				"Imaskarcanist|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions",
+				"Unlight Restoration|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|6|XUA2026UnderdarkOptions",
+				"Secrets of Deep Imaskar|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|10|XUA2026UnderdarkOptions",
+				"Doom of Unlight|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|14|XUA2026UnderdarkOptions"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Path of Unlight",
+			"shortName": "Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Path of Unlight|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions",
+				"Unlight Revelation|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|6|XUA2026UnderdarkOptions",
+				"Infectious Unlight|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|10|XUA2026UnderdarkOptions",
+				"Harbinger of Unlight|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|10|XUA2026UnderdarkOptions",
+				"Brilliant Rage|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|14|XUA2026UnderdarkOptions"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "House Agent",
+			"shortName": "House Agent",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Outwit Your Foes with Charm and Subterfuge}"
+			]
+		},
+		{
+			"name": "Imaskarcanist",
+			"shortName": "Imaskarcanist",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Master the Secrets of Unlight and the Artifacts of Ancient Imaskar}"
+			]
+		},
+		{
+			"name": "Path of Unlight",
+			"shortName": "Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Unleash your inner light as blazing fury}",
+				{
+					"type": "inset",
+					"name": "What is Unlight?",
+					"page": 1,
+					"entries": [
+						"The city of Deep Imaskar, home to the descendants of the ancient Imaskari empire, lies in one of the lowest levels of the Underdark. The Deep Imaskari wield a magical force known as Unlight, taught to them by {@i Imaskarcana}, sentient grimoires penned by ancient wizard-kings of the lost Imaskari empire.",
+						"The Deep Imaskari used Unlight to create the Great Seal, a magical symbol that protects and illuminates their city while nourishing crops that allow the Deep Imaskari to survive in the Underdark. But Unlight can also be used to corrupt and destroy, burning creatures from within until they die in a fiery explosion of brilliant light."
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Path of Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Barbarians infused with the power of Unlight embrace uncontrollable magic in exchange for incredible physical prowess. The Unlight burning inside them illuminates the darkness while burning and blinding the barbarian's enemies",
+				"Most barbarians on this path were first exposed to Unlight in the Underdark. The Deep Imaskari grant Unlight to chosen warriors who lead their army against the upper regions of the Underdark, and some of these soldiers have fled to pursue lives of their own. But the magic of Unlight is contagious and spreads in unpredictable ways. It infects people only briefly exposed to it and occasionally manifests in individuals who have never been to the Underdark.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unlight Manifestation|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Radiant Rage|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				}
+			]
+		},
+		{
+			"name": "Radiant Rage",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The Unlight coursing through you fuels your {@classFeature Rage|Barbarian|XPHB|1|XPHB}. If a creature hits you with a melee attack roll while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, the creature takes Radiant damage equal to your Rage Damage bonus.",
+				"Additionally, while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, you shed {@variantrule Bright Light|XPHB} in a 20-foot radius."
+			]
+		},
+		{
+			"name": "Unlight Manifestation",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Barbarians on the Path of Unlight manifest the radiant energy of Unlight when they rage, but this energy can take many forms. You can roll on or choose a result from the {@table Unlight Manifestation|XUA2026UnderdarkOptions} table to inspire the form your {@subclassFeature Radiant Rage|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions} takes.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026UnderdarkOptions",
+					"name": "Unlight Manifestation",
+					"page": 2
+				}
+			]
+		},
+		{
+			"name": "Unlight Revelation",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You have {@variantrule proficiency|XPHB} in the {@skill Perception} skill, if you lack it. You also gain {@variantrule Expertise|XPHB} in that skill.",
+				"While your rage is active, you have {@sense Blindsight|XPHB} with a range equal to that of the {@variantrule Bright Light|XPHB} provided by your {@subclassFeature Radiant Rage|Barbarian|XPHB|Unlight|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions}."
+			]
+		},
+		{
+			"name": "Harbinger of Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You have {@variantrule Resistance|XPHB} to Radiant damage."
+			]
+		},
+		{
+			"name": "Infectious Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Damage you deal with {@classFeature Brutal Strike|Barbarian|XPHB|9|XPHB} can be Radiant or the usual type (your choice). The following effect is now among your {@classFeature Brutal Strike|Barbarian|XPHB|9|XPHB} options.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"page": 2,
+					"items": [
+						{
+							"type": "item",
+							"name": "Radiant Infection",
+							"entries": [
+								"The target becomes infected with Unlight for 1 minute. While infected, it sheds {@variantrule Bright Light|XPHB} in a 10-foot radius. Additionally, at the start of each of its turns, the target takes {@damage 1d6} Radiant damage. The target makes a Constitution saving throw ({@dc 8} plus your Strength modifier and {@table Proficiency Bonus|XPHB}) at the end of each of its turns, ending the effect on itself on a success."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Brilliant Rage",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"The aura of your Unlight is bolstered. While your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, you shed {@variantrule Bright Light|XPHB} in a 30-foot radius.",
+				"As a {@variantrule Bonus Action|XPHB}, you unleash blinding brilliance. When you do, each creature of your choice within 30 feet of you makes a Constitution saving throw ({@dc 8} plus your Strength modifier and {@table Proficiency Bonus|XPHB}). On a failed save, a creature takes {@damage 1d12} Radiant damage and has the {@condition Blinded|XPHB} condition until the end of your next turn. On a successful save, a creature takes half damage only.",
+				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend a use of your {@classFeature Rage|Barbarian|XPHB|1|XPHB} (no action required) to restore your use of it."
+			]
+		},
+		{
+			"name": "House Agent",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The drow houses of Menzoberranzan conspire against each other in a great game of status and sabotage that expands far beyond the city's limits. When a house needs a specialized tool to further its interests without arousing suspicion, it calls in a house agent.",
+				"Using the tools and training of their sponsor, a house agent is a master infiltrator, capable of insinuating themself into their target's life and striking while their target's back is turned.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Loyalty Test|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "House Insignia|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Charming Presence|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				}
+			]
+		},
+		{
+			"name": "Charming Presence",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You can take the {@action Influence|XPHB} action as a {@variantrule Bonus Action|XPHB}. Additionally, choose one of the following skills: {@skill Deception|XPHB}, {@skill Intimidation|XPHB}, or {@skill Performance|XPHB}, or {@skill Persuasion|XPHB}. You have proficiency in that skill."
+			]
+		},
+		{
+			"name": "House Insignia",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain a magical token in the form of a brooch or coin that marks you as an agent of your sponsor and that bears their heraldry. While you have this insignia, you can cast certain spells with it. Charisma is your spellcasting ability for spells you cast with your insignia.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"page": 3,
+					"items": [
+						{
+							"type": "item",
+							"name": "Cantrips",
+							"entries": [
+								"You learn the {@spell Friends|XPHB} cantrip."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Find Familiar",
+							"entries": [
+								"You can cast the {@spell Find Familiar|XPHB} spell but only as a {@variantrule Ritual|XPHB}. Your sponsor provides the Material component for your first casting of this spell. You must choose the {@creature Spider|XMM} form for your familiar."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Insignia Spells",
+							"entries": [
+								"When you reach a level specified in the {@table Insignia Spells|XUA2026UnderdarkOptions} table, you learn the listed spells. Once you cast a spell using your insignia, you can't cast that spell again until you finish a {@variantrule Long Rest|XPHB}.",
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2026UnderdarkOptions",
+									"name": "Insignia Spells",
+									"page": 3
+								}
+							]
+						},
+						{
+							"type": "item",
+							"name": "Losing Your Insignia",
+							"entries": [
+								"If you lose your insignia, your house finds a way to deliver you a new one, whether it is via a courier, a magical familiar, teleportation magic, or some other method. Your new insignia is delivered to you when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Loyalty Test",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Each house agent is required to prove their loyalty before their sponsor allows them into the inner circles of the organization. You can roll on or choose a result from the {@table House Agent Origins|XUA2026UnderdarkOptions} table to inspire the incident that made you a full-fledged member of your house.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026UnderdarkOptions",
+					"name": "House Agent Origins",
+					"page": 2
+				},
+				{
+					"type": "inset",
+					"name": "Using Other Sponsors",
+					"page": 2,
+					"entries": [
+						"Though this Rogue is designed to work with the backing of a drow house of Menzoberranzan, a House Agent might instead have the backing of another large group. They could belong to a duergar clan, a religious order, or a faction such as Bregan D'Aerthe or the Zhentarim. Or your Rogue could have had multiple sponsors\u2014perhaps they first worked for a drow house, then defected to serve another cause."
+					]
+				}
+			]
+		},
+		{
+			"name": "Backstab",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"You have {@variantrule Advantage|XPHB} on attack rolls against creatures within 5 feet of you that are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you or have the {@condition Charmed|XPHB} Condition. You also gain the following {@classFeature Cunning Strike|Rogue|XPHB|5|XPHB} option.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"page": 3,
+					"items": [
+						{
+							"type": "item",
+							"name": "Stunning Betrayal (Cost: {@dice 4d6})",
+							"entries": [
+								"If your target was {@variantrule Friendly [Attitude]|XPHB|Friendly} to you or had the {@condition Charmed|XPHB} condition when you hit it, the target has the {@condition Stunned} condition until the start of your next turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Infiltration Partner",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"The familiar you have through the {@spell Find Familiar|XPHB} spell gains {@sense Darkvision|XPHB} with a range of 120 feet and {@sense Truesight|XPHB} with a range of 30 feet.",
+				"Additionally, when you cast the {@spell Find Familiar|XPHB} spell or finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} while you have a familiar, you can grant your familiar {@variantrule Temporary Hit Points|XPHB} equal to your {@class Rogue|XPHB} level."
+			]
+		},
+		{
+			"name": "Silver Tongue",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"A creature's {@variantrule Hostile [Attitude]|XPHB|Hostile} attitude doesn't impose {@variantrule Disadvantage|XPHB} on your Charisma checks to influence that creature."
+			]
+		},
+		{
+			"name": "Subtle Manipulator",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"You gain the following {@classFeature Cunning Strike|Rogue|XPHB|5|XPHB} option.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"page": 3,
+					"items": [
+						{
+							"type": "item",
+							"name": "Confound ({@dice 5d6})",
+							"entries": [
+								"The target must succeed on a Wisdom saving throw with a DC equal to your spellcasting DC or have the {@condition Charmed|XPHB} condition for 1 minute. The target can repeat the save when it takes any damage, ending the effect on itself on a success"
+							]
+						}
+					]
+				},
+				"Additionally, you can cast the {@spell Friends|XPHB} spell as a {@variantrule Bonus Action|XPHB}. The target no longer automatically succeeds on the saving throw if it isn't a Humanoid or if you're fighting it.",
+				"Finally, when a spell you cast that gives a target the {@condition Charmed|XPHB} condition ends, the target doesn't know it was {@condition Charmed|XPHB} by you."
+			]
+		},
+		{
+			"name": "Imaskarcanist",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Imaskarcanists have learned the ancient secrets of Deep Imaskar, a once-human society living in the deepest depths of the Underdark. Through these eldritch arts\u2014taught to the Deep Imaskari by sentient artifacts called the {@i Imaskarcana}\u2014they have mastered the power of Unlight, a brilliant, destructive, and infectious energy that can be used to both heal and destroy. With this power, the Deep Imaskari have launched a war of conquest to bring light to every corner of the Underdark. Each Imaskarcanist must decide for themself whether to aid the conquering army or use their power against it and preserve the comforting darkness of the world below.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Learning the Secrets of Unlight|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unlight Adept|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unlight Invigoration|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				}
+			]
+		},
+		{
+			"name": "Learning the Secrets of Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Unlight is a rare form of magic known to very few. You can roll on or choose a result from the {@table Secrets of Unlight|XUA2026UnderdarkOptions} table to inspire how your character learned about this secret magic.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026UnderdarkOptions",
+					"name": "Secrets of Unlight",
+					"page": 4
+				}
+			]
+		},
+		{
+			"name": "Unlight Adept",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 4,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You know how to weave Unlight into your damaging spells. When you cast a spell that deals Acid, Cold, Fire, Lightning, or Thunder damage, you can change that damage type to Radiant.",
+				"In addition, {@variantrule Dim Light|XPHB} created by spells you cast is {@variantrule Bright Light|XPHB} instead."
+			]
+		},
+		{
+			"name": "Unlight Invigoration",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 4,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You can imbue creatures with Unlight drawn from your own energy, making them stronger and fiercer. As a {@variantrule Bonus action|XPHB}, choose a willing creature you can see within 30 feet of you and roll one or two of your {@variantrule Hit Point Dice|XPHB}. Those dice are then expended. The target gains {@variantrule Temporary Hit Points|XPHB} equal to the total rolled plus your Intelligence modifier, and until the target has no {@variantrule Temporary Hit Points|XPHB}, it has {@variantrule Advantage|XPHB} on Strength checks and sheds {@variantrule Bright Light|XPHB} in a 10-foot radius."
+			]
+		},
+		{
+			"name": "Unlight Restoration",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 4,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You can wield the restorative effects of Unlight to heal injuries and remove harmful effects. As a {@variantrule Bonus action|XPHB}, choose a creature you can see within 30 feet of you and roll one or two of your {@variantrule Hit Point Dice|XPHB}. Those dice are then expended. The target regains {@variantrule Hit Points|XPHB} equal to the total rolled and sheds {@variantrule Bright Light|XPHB} in a 10-foot radius until the end of its next turn.",
+				"If you expended two {@variantrule Hit Point Dice|XPHB}, you can choose to end one of the following conditions on the target: {@condition Blinded|XPHB}, {@condition Deafened|XPHB}, {@condition Paralyzed|XPHB}, or {@condition Poisoned|XPHB}. If you do, the target does not regain {@variantrule Hit Points|XPHB}."
+			]
+		},
+		{
+			"name": "Secrets of Deep Imaskar",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 4,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Your research into the secrets of the Imaskarcana grants you the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"page": 4,
+					"items": [
+						{
+							"type": "item",
+							"name": "Imaskarcana Lore",
+							"entries": [
+								"You can attune yourself to a magic item as a {@action Magic|XPHB} action. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Piercing Unlight",
+							"entries": [
+								"Your spells ignore {@variantrule Resistance|XPHB} to Radiant damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Unlight Resilience",
+							"entries": [
+								"You gain {@variantrule Resistance|XPHB} to Radiant damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Imaskar Seals",
+							"entries": [
+								"You always have the {@spell Glyph of Warding|XPHB} spell prepared and can cast it once without a spell slot. When you cast the spell in this way, you don't need Material components, you cast the spell as if using a spell slot equal to the highest Wizard spell slot you have. Any previous glyph you created in this way is broken, and its spell ends without being triggered. You regain the ability to cast {@spell Glyph of Warding|XPHB} in this way when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Doom Of Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 4,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You can curse your enemies with corrosive Unlight, and the only escape from the curse is physical violence or an explosive death.",
+				"When a creature takes Radiant damage from a spell you cast, you can take a {@variantrule Reaction|XPHB} to curse that creature with Unlight. The creature makes a Constitution save against {@dcYourSpellSave}. On a failure, the creature is cursed. Until the curse ends, the target suffers the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"page": 4,
+					"items": [
+						"The target emits {@variantrule Bright Light|XPHB} in a 20-foot radius.",
+						"Attack rolls against the target have {@variantrule Advantage|XPHB}.",
+						"At the start of each of the target's turns, it takes Radiant damage equal to your character level.",
+						"The target has {@variantrule Advantage|XPHB} on Strength checks and melee attack rolls.",
+						"If the target hits another creature with a melee attack roll, the target can repeat the Constitution save, ending this curse on a success.",
+						"If the target is reduced to 0 {@variantrule Hit Points|XPHB}, it explodes. Roll a number of {@dice d8|d8s} equal to half your character level. Creatures in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} centered on the target take Radiant damage equal to the total rolled."
+					]
+				},
+				"Once you have attempted to curse a creature using this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB} or until you expend a level 6+ spell slot (no action required)."
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Unlight Revelation",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 6,
+			"entryData": {
+				"expertise": [
+					{
+						"perception": true
+					}
+				]
+			}
+		},
+		{
+			"name": "Harbinger of Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Unlight",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 10,
+			"entryData": {
+				"resist": [
+					"radiant"
+				]
+			}
+		},
+		{
+			"name": "Charming Presence",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"choose": {
+							"from": [
+								"deception",
+								"intimidation",
+								"performance",
+								"persuasion"
+							],
+							"count": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Secrets of Deep Imaskar",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 10,
+			"entryData": {
+				"resist": [
+					"radiant"
+				]
+			}
+		}
+	],
+	"feat": [
+		{
+			"name": "Full Ceremorphosis",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 6,
+			"category": "Path of Ceremorphosis",
+			"prerequisite": [
+				{
+					"level": 12,
+					"featCategory": [
+						{
+							"category": "Path of Ceremorphosis",
+							"count": 2
+						}
+					]
+				}
+			],
+			"repeatable": true,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"resource": {
+								"1": [
+									"detect thoughts|XPHB",
+									"levitate|XPHB",
+									"mind blast|XUA2026UnderdarkOptions"
+								]
+							}
+						}
+					},
+					"ability": "int",
+					"resourceName": "Psionic Energy Die"
+				},
+				{
+					"ability": "int"
+				}
+			],
+			"entries": [
+				"You grow four tentacles around your mouth, your head elongates, and your skin becomes purple and slick with mucus. Your transformation into a mind flayer is complete. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"page": 6,
+					"items": [
+						{
+							"type": "item",
+							"name": "Psionic Energy Dice",
+							"entries": [
+								"The Psionic Energy Dice granted to you by this feat path become d10s. If they are already d10s, they instead become d12s."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Aberration",
+							"entries": [
+								"Your creature type is Aberration."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Illithid Specialization",
+							"entries": [
+								"You excel at a particular illithid talent. Choose one of the following benefits:",
+								{
+									"type": "list",
+									"style": "list-hang",
+									"page": 6,
+									"items": [
+										{
+											"type": "item",
+											"name": "Brain-Seeking Tentacles",
+											"entries": [
+												"When you hit a creature with an {@variantrule Unarmed Strike|XPHB} as part of the {@action Attack|XPHB} action on your turn, you can use both the Damage and the Grapple option. You can expend a Psionic Energy Die when you use this benefit to roll the expended die. The target takes extra Psychic damage equal to the number rolled plus your Intelligence modifier, and it subtracts half the number rolled (round up) from its saving throw to avoid gaining the {@condition Grappled|XPHB} condition. If the target is reduced to 0 {@variantrule Hit Points|XPHB} as a result of this benefit, the Psionic Energy Die isn't expended. You can use this benefit only once per turn."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Mind Flayer Spells",
+											"entries": [
+												"You always have the {@spell Detect Thoughts|XPHB}, {@spell Levitate|XPHB}, and {@spell Mind Blast|XUA2026UnderdarkOptions} spells prepared. Intelligence is your spellcasting ability for these spells. You can cast these spells without expending a spell slot by expending a Psionic Energy Die. You can also cast these spells using any spell slots you have of an appropriate level."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "item",
+							"name": "Repeatable",
+							"entries": [
+								"You can take this feat more than once, but you must choose a different option for Illithid Specialization each time."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Illithid Thrallmaker",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 6,
+			"category": "Path of Ceremorphosis",
+			"prerequisite": [
+				{
+					"feat": [
+						"tadpole host|XUA2026UnderdarkOptions"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"resource": {
+								"1": [
+									"charm person|XPHB"
+								]
+							}
+						}
+					},
+					"ability": "int",
+					"resourceName": "Psionic Energy Die"
+				}
+			],
+			"entries": [
+				"You have honed your psionic ability to become a master manipulator. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"page": 6,
+					"items": [
+						{
+							"type": "item",
+							"name": "Psionic Energy Dice",
+							"entries": [
+								"The Psionic Energy Dice granted to you by this feat path become d8s."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Telepathy",
+							"entries": [
+								"You have {@variantrule Telepathy|XPHB} with a range of 10 feet. If you already have {@variantrule Telepathy|XPHB}, your range increases by 10 feet."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Persuasive Presence",
+							"entries": [
+								"You always have the {@spell Charm Person|XPHB} spell prepared. Intelligence is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending a Psionic Energy Die. You can also cast the spell using any spell slots you have. When you expend a Psionic Energy Die to cast the spell, roll the expended die. One target of the spell subtracts half the number rolled (round up) from its saving throw against the spell."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tadpole Host",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 5,
+			"category": "Path of Ceremorphosis",
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"innate": {
+						"_": [
+							"mind sliver|XPHB#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You begin a symbiotic relationship with the mind flayer tadpole in your body. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"page": 5,
+					"items": [
+						{
+							"type": "item",
+							"name": "Mind Sliver",
+							"entries": [
+								"You learn the {@spell Mind Sliver|XPHB} cantrip. Intelligence is your spellcasting ability for this spell."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Psionic Power",
+							"entries": [
+								"The wellspring of psionic energy provided to you by your tadpole is represented by Psionic Energy Dice, which fuel the powers you have from this feat path.",
+								"You have a number of Psionic Energy Dice equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. When you take this feat, your Psionic Energy Die is a {@dice d6}. The die changes when you take feats along the {@charoption Path of Ceremorphosis|XUA2026UnderdarkOptions}.",
+								"Any features in this feat path that use a Psionic Energy Die use only the dice from this feat path. Some of your features expend Psionic Energy Dice, as specified in a feature's description, and you can't use a feature if it requires you to use a die when all your Psionic Energy Dice are expended.",
+								"You regain all expended Psionic Energy Dice when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Psionic Overload",
+							"entries": [
+								"Whenever you deal Psychic damage, you can expend a Psionic Energy Die to roll the die and deal extra Psychic damage equal to the number rolled."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tadpole's Safeguard",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 6,
+			"category": "Path of Ceremorphosis",
+			"prerequisite": [
+				{
+					"feat": [
+						"tadpole host|XUA2026UnderdarkOptions"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"resource": {
+								"1": [
+									"shield|XPHB"
+								]
+							}
+						}
+					},
+					"ability": "int",
+					"resourceName": "Psionic Energy Die"
+				}
+			],
+			"entries": [
+				"Your tadpole has a vested interest in protecting its shell while it incubates. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"page": 6,
+					"items": [
+						{
+							"type": "item",
+							"name": "Psionic Energy Dice",
+							"entries": [
+								"The Psionic Energy Dice granted to you by this feat path become d8s."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Telepathy",
+							"entries": [
+								"You have {@variantrule Telepathy|XPHB} with a range of 10 feet. If you already have {@variantrule Telepathy|XPHB}, your range increases by 10 feet."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Warding Backlash",
+							"entries": [
+								"You always have the {@item Shield|XPHB} spell prepared. Intelligence is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending a Psionic Energy Die. You can also cast the spell using any spell slots you have. When you expend a Psionic Energy Die to cast the spell and cause the triggering attack to miss, roll the expended die. The attacker takes Psychic damage equal to the number rolled."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ulitharid's Might",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 6,
+			"category": "Path of Ceremorphosis",
+			"prerequisite": [
+				{
+					"feat": [
+						"tadpole host|XUA2026UnderdarkOptions"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						]
+					}
+				}
+			],
+			"entries": [
+				"The tadpole you ingested is mutating you into an {@creature ulitharid|MPMM}, a rare type of illithid that boasts great physical strength and mental power, as well as two additional tentacles.",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"page": 6,
+					"items": [
+						{
+							"type": "item",
+							"name": "Psionic Energy Dice",
+							"entries": [
+								"The Psionic Energy Dice granted to you by this feat path become d8s."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Telepathy",
+							"entries": [
+								"You have {@variantrule Telepathy|XPHB} with a range of 10 feet. If you already have {@variantrule Telepathy|XPHB}, the range increases by 10 feet."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Extended Tentacles",
+							"entries": [
+								"Two long tentacles sprout from around your mouth. You can use these tentacles to make an {@variantrule Unarmed Strike|XPHB}. When you're using these tentacles, your reach increases by 5 feet."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"charoption": [
+		{
+			"name": "Path of Ceremorphosis",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 5,
+			"optionType": [
+				"PTH"
+			],
+			"entries": [
+				"Ceremorphosis is the process by which {@creature mind flayer|XMM|mind flayers} create more mind flayers. They incubate their tadpole young in the tank that houses their colony's {@creature elder brain|MPMM}. When a tadpole is ready, they insert it into the body of a suitable host. During the transformative period that ensues, the host gains access to psychic powers even before the new illithid's more monstrous parts begin to develop.",
+				"The best hosts are typically humanoids capable of great physical, mental, and magical feats\u2014in other words, adventurers.",
+				{
+					"type": "entries",
+					"name": "From Tadpole to Transformation",
+					"page": 5,
+					"entries": [
+						"Ceremorphosis is typically a parasitic relationship in which a tadpole eats the mind of its host and takes over the host's body. The resulting mind flayer retains the memories of its host but is an entirely different creature with its own thoughts and motivations. This mind flayer is subject to the will of an elder brain, a powerful leader of a mind flayer colony.",
+						"Ceremorphosis usually occurs quickly, but your path to becoming a mind flayer is different from traditional methods. As you take feats along this path, imagine what you might look like at every stage of this process. Your skin could turn a deeper violet with each feat you take, or your eyes might change color and shape.",
+						"Something prevents you from giving yourself over to the whims of the elder brain. Roll on or choose from the {@table Ceremorphosis Variables|XUA2026UnderdarkOptions} table to inspire what protects you from this foul influence.",
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2026UnderdarkOptions",
+							"name": "Ceremorphosis Variables",
+							"page": 5,
+							"slotSize": "360"
+						},
+						{
+							"type": "inset",
+							"name": "Elder Brain Control",
+							"page": 5,
+							"entries": [
+								"Roleplaying the relationship between a burgeoning mind flayer and an elder brain can be a fun part of this path, but it requires a conversation with your DM. Whatever you decide, make sure both you and the DM agree on the terms of the relationship. Some topics you might discuss include the following:",
+								{
+									"type": "list",
+									"items": [
+										"How does the elder brain communicate with your character\u2014through words, images, or impulses?",
+										"Is the elder brain open about its true nature, or does it pretend to be the character's deity or trusted ally?",
+										"What are the consequences for your character if they defy the elder brain's orders?",
+										"What, if anything, can the elder brain force your character to do? How does your character resist?"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Path of Ceremorphosis Feats",
+					"page": 5,
+					"entries": [
+						"The following Path of Ceremorphosis feats represent one path a character can take to become a mind flayer. To complete the Path of Ceremorphosis, begin by taking the {@feat Tadpole Host|XUA2026UnderdarkOptions} feat, followed by any other Path of Ceremorphosis feat you choose. Finally, when you reach level 12 or higher, take the {@feat Full Ceremorphosis|XUA2026UnderdarkOptions} feat.",
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026UnderdarkOptions",
+							"name": "Tadpole Host",
+							"page": 5,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026UnderdarkOptions",
+							"name": "Illithid Thrallmaker",
+							"page": 6,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026UnderdarkOptions",
+							"name": "Tadpole's Safeguard",
+							"page": 6,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026UnderdarkOptions",
+							"name": "Ulitharid's Might",
+							"page": 6,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026UnderdarkOptions",
+							"name": "Full Ceremorphosis",
+							"page": 6,
+							"collapsed": true
+						},
+						{
+							"type": "inset",
+							"name": "Mind Blast",
+							"page": 7,
+							"entries": [
+								"The {@feat Full Ceremorphosis|XUA2026UnderdarkOptions} feat grants the {@spell Mind Blast|XUA2026UnderdarkOptions} spell, provided here:",
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2026UnderdarkOptions",
+									"name": "Mind Blast",
+									"page": 7,
+									"slotSize": "360"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Mind Blast",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 7,
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You unleash a concussive burst of psionic energy. Each creature in a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} originating from you makes an Intelligence saving throw. On a failed save, the creature takes {@damage 6d8} Psychic damage and has the {@condition Stunned|XPHB} condition until the start of your next turn. On a successful save, the creature takes half as much damage only."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The damage increases by {@dice 1d8} for each spell slot level above 6."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "XUA2025Psion"
+					}
+				]
+			},
+			"feats": [
+				{
+					"name": "Full Ceremorphosis",
+					"source": "XUA2026UnderdarkOptions"
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"savingThrow": [
+				"intelligence"
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Ceremorphosis Variables",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 5,
+			"colLabels": [
+				"1d6",
+				"You're Protected from the {@creature Elder Brain|MPMM} By..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"A blessing from your deity, given unconditionally."
+				],
+				[
+					"2",
+					"The interference of an archdevil you've sold your soul to."
+				],
+				[
+					"3",
+					"The elder brain's desire to see what happens if a host retains its autonomy."
+				],
+				[
+					"4",
+					"A one-of-a-kind helm that the Society of Brilliance infused with Abjuration magic."
+				],
+				[
+					"5",
+					"A mind and personality so awful that they deter the elder brain from interacting with you."
+				],
+				[
+					"6",
+					"The interference of another elder brain vying for control over your mind."
+				]
+			]
+		},
+		{
+			"name": "House Agent Origins",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"colLabels": [
+				"1d6",
+				"You Proved Your Loyalty By..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Taking the fall for another person's crime and serving their jail sentence."
+				],
+				[
+					"2",
+					"Assassinating a powerful political figure."
+				],
+				[
+					"3",
+					"Renouncing all personal ties and worldly possessions and adopting a new identity."
+				],
+				[
+					"4",
+					"Uncovering an incriminating secret about a member of another house."
+				],
+				[
+					"5",
+					"Withstanding a torturous interrogation without divulging house secrets."
+				],
+				[
+					"6",
+					"Sacrificing a family member for the benefit of your sponsor."
+				]
+			]
+		},
+		{
+			"name": "Insignia Spells",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"colLabels": [
+				"Rogue Level",
+				"Prepared Spells"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-8"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Charm Person|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Suggestion|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Hypnotic Pattern|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Secrets of Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 4,
+			"colLabels": [
+				"1d6",
+				"You Learned About Unlight When..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"You were taught by a refugee from Deep Imaskar who brought this knowledge to the surface world."
+				],
+				[
+					"2",
+					"You heard whispers in your dreams in a language you inexplicably understood."
+				],
+				[
+					"3",
+					"You discovered written records left behind by a long-dead Imaskari wizard."
+				],
+				[
+					"4",
+					"You were apprenticed to a Deep Imaskari wizard in the depths of the Underdark, but you escaped."
+				],
+				[
+					"5",
+					"You heard rumors of this power from Underdark refugees, then pieced its secrets together through laborious research."
+				],
+				[
+					"6",
+					"A mind flayer gave you notes salvaged from a Deep Imaskari whose brain the creature had eaten."
+				]
+			]
+		},
+		{
+			"name": "Unlight Manifestation",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 1,
+			"colLabels": [
+				"1d6",
+				"Your Unlight Manifests As..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"White light blazing from your eyes and mouth."
+				],
+				[
+					"2",
+					"Complex arcane symbols of light etched onto your body."
+				],
+				[
+					"3",
+					"A cyclone of bright light that whirls around you."
+				],
+				[
+					"4",
+					"Cracks in your flesh that reveal burning light within."
+				],
+				[
+					"5",
+					"A ghostly form made of light that hovers above you."
+				],
+				[
+					"6",
+					"Pale fire that dances on the tip of your weapon."
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2026: Underdark Options",
+			"id": "XUA2026UnderdarkOptions",
+			"source": "XUA2026UnderdarkOptions",
+			"group": "prerelease",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026UnderdarkOptions/cover.webp"
+			},
+			"published": "2026-08-20",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2026: Underdark Options",
+					"headers": [
+						"What's Inside",
+						{
+							"header": "Content Warning",
+							"depth": 1
+						},
+						"Subclasses",
+						{
+							"header": "Path of Unlight (Barbarian)",
+							"depth": 1
+						},
+						{
+							"header": "House Agent (Rogue)",
+							"depth": 1
+						},
+						{
+							"header": "Imaskarcanist (Wizard)",
+							"depth": 1
+						},
+						"Path of Ceremorphosis",
+						{
+							"header": "From Tadpole to Transformation",
+							"depth": 1
+						},
+						{
+							"header": "Path of Ceremorphosis Feats",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2026UnderdarkOptions",
+			"source": "XUA2026UnderdarkOptions",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2026: Underdark Options",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book Player's Handbook|XPHB}.",
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"This document presents three new subclasses:",
+								{
+									"type": "list",
+									"items": [
+										"{@class Barbarian} ({@class Barbarian|XPHB|Path of Unlight|Unlight|XUA2026UnderdarkOptions})",
+										"{@class Rogue} ({@class Rogue|XPHB|House Agent|House Agent|XUA2026UnderdarkOptions})",
+										"{@class Wizard} ({@class Wizard|XPHB|Imaskarcanist|Imaskarcanist|XUA2026UnderdarkOptions})"
+									]
+								},
+								"This document also includes a new transformative path of feats: the {@charoption Path of Ceremorphosis|XUA2026UnderdarkOptions}.",
+								{
+									"type": "entries",
+									"name": "Content Warning",
+									"page": 1,
+									"entries": [
+										"This material contains descriptions of body horror, damage to the eyes and brain, ingested parasites, and the idea that you are slowly losing control of yourself. Some readers might find this content disturbing."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from the {@book Dungeon Master's Guide|XDMG|3|Adventure Examples} or a source like {@adventure Dragon Delves|DrDe-BD}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Subclasses",
+							"page": 1,
+							"entries": [
+								"This section presents the following subclasses: {@class Barbarian|XPHB|Path of Unlight|Unlight|XUA2026UnderdarkOptions}, {@class Rogue|XPHB|House Agent|House Agent|XUA2026UnderdarkOptions}, and {@class Wizard|XPHB|Imaskarcanist|Imaskarcanist|XUA2026UnderdarkOptions}.",
+								{
+									"type": "entries",
+									"name": "Path of Unlight (Barbarian)",
+									"page": 1,
+									"entries": [
+										"{@i Unleash your inner light as blazing fury}",
+										{
+											"type": "inset",
+											"name": "What is Unlight?",
+											"page": 1,
+											"entries": [
+												"The city of Deep Imaskar, home to the descendants of the ancient Imaskari empire, lies in one of the lowest levels of the Underdark. The Deep Imaskari wield a magical force known as Unlight, taught to them by {@i Imaskarcana}, sentient grimoires penned by ancient wizard-kings of the lost Imaskari empire.",
+												"The Deep Imaskari used Unlight to create the Great Seal, a magical symbol that protects and illuminates their city while nourishing crops that allow the Deep Imaskari to survive in the Underdark. But Unlight can also be used to corrupt and destroy, burning creatures from within until they die in a fiery explosion of brilliant light."
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026UnderdarkOptions",
+											"name": "Path of Unlight",
+											"className": "Barbarian",
+											"classSource": "XPHB",
+											"page": 1,
+											"shortName": "Unlight"
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "House Agent (Rogue)",
+									"page": 2,
+									"entries": [
+										"{@i Outwit Your Foes with Charm and Subterfuge}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026UnderdarkOptions",
+											"name": "House Agent",
+											"className": "Rogue",
+											"classSource": "XPHB",
+											"page": 2,
+											"shortName": "House Agent"
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Imaskarcanist (Wizard)",
+									"page": 4,
+									"entries": [
+										"{@i Master the Secrets of Unlight and the Artifacts of Ancient Imaskar}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026UnderdarkOptions",
+											"name": "Imaskarcanist",
+											"className": "Wizard",
+											"classSource": "XPHB",
+											"page": 4,
+											"shortName": "Imaskarcanist"
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Eldritch Invocations",
+									"page": 5,
+									"entries": [
+										"The following two Eldritch Invocations complement the {@class Warlock|XPHB|Primordial Patron|Primordial|XUA2026UnderdarkOptions}.",
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2026UnderdarkOptions",
+											"name": "Elemental Overflow",
+											"page": 5
+										},
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2026UnderdarkOptions",
+											"name": "Elemental Transmutation",
+											"page": 5
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Path of Ceremorphosis",
+							"page": 5,
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "charoption",
+									"source": "XUA2026UnderdarkOptions",
+									"name": "Path of Ceremorphosis",
+									"page": 5,
+									"slotSize": "1000"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

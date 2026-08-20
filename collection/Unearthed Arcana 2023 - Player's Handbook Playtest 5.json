@@ -18,8 +18,8 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1663844222,
-		"dateLastModified": 1774092631,
-		"_dateLastModifiedHash": "7a4d3fe4ba"
+		"dateLastModified": 1787253965,
+		"_dateLastModifiedHash": "1cab1b9499"
 	},
 	"_test": {
 		"references": [
@@ -5078,8 +5078,7 @@
 							"wis",
 							"cha"
 						]
-					},
-					"max": 30
+					}
 				}
 			],
 			"resist": [
@@ -5097,8 +5096,7 @@
 							"thunder"
 						],
 						"count": 2
-					},
-					"max": 30
+					}
 				}
 			],
 			"entries": [
@@ -5279,24 +5277,6 @@
 						]
 					},
 					"max": 30
-				}
-			],
-			"resist": [
-				{
-					"resist": [
-						"acid",
-						"bludgeoning",
-						"cold",
-						"fire",
-						"lightning",
-						"necrotic",
-						"piercing",
-						"poison",
-						"slashing",
-						"thunder"
-					],
-					"note": "while entirely within Dim Light or Darkness",
-					"cond": true
 				}
 			],
 			"entries": [
