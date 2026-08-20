@@ -1,0 +1,834 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2026UnderdarkOptions",
+				"abbreviation": "XUA26UO",
+				"full": "Unearthed Arcana 2026: Underdark Options",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/underdark-options/RoZy4p5SV29Elftn/UA2026-UnderdarkOptions.pdf",
+				"version": "1",
+				"dateReleased": "2026-08-20",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				]
+			}
+		],
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1787248083,
+		"dateLastModified": 1787248083
+	},
+	"feat": [
+		{
+			"name": "Full Ceremorphosis",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 6,
+			"category": "Path of Ceremorphosis",
+			"prerequisite": [
+				{
+					"level": 12,
+					"featCategory": [
+						{
+							"category": "Path of Ceremorphosis",
+							"count": 2
+						}
+					]
+				}
+			],
+			"repeatable": true,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"resource": {
+								"1": [
+									"detect thoughts|XPHB",
+									"levitate|XPHB",
+									"mind blast|XUA2026UnderdarkOptions"
+								]
+							}
+						}
+					},
+					"ability": "int",
+					"resourceName": "Psionic Energy Die"
+				},
+				{
+					"ability": "int"
+				}
+			],
+			"entries": [
+				"You grow four tentacles around your mouth, your head elongates, and your skin becomes purple and slick with mucus. Your transformation into a mind flayer is complete. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"page": 6,
+					"items": [
+						{
+							"type": "item",
+							"name": "Psionic Energy Dice",
+							"entries": [
+								"The Psionic Energy Dice granted to you by this feat path become d10s. If they are already d10s, they instead become d12s."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Aberration",
+							"entries": [
+								"Your creature type is Aberration."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Illithid Specialization",
+							"entries": [
+								"You excel at a particular illithid talent. Choose one of the following benefits:",
+								{
+									"type": "list",
+									"style": "list-hang",
+									"page": 6,
+									"items": [
+										{
+											"type": "item",
+											"name": "Brain-Seeking Tentacles",
+											"entries": [
+												"When you hit a creature with an {@variantrule Unarmed Strike|XPHB} as part of the {@action Attack|XPHB} action on your turn, you can use both the Damage and the Grapple option. You can expend a Psionic Energy Die when you use this benefit to roll the expended die. The target takes extra Psychic damage equal to the number rolled plus your Intelligence modifier, and it subtracts half the number rolled (round up) from its saving throw to avoid gaining the {@condition Grappled|XPHB} condition. If the target is reduced to 0 {@variantrule Hit Points|XPHB} as a result of this benefit, the Psionic Energy Die isn't expended. You can use this benefit only once per turn."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Mind Flayer Spells",
+											"entries": [
+												"You always have the {@spell Detect Thoughts|XPHB}, {@spell Levitate|XPHB}, and {@spell Mind Blast|XUA2026UnderdarkOptions} spells prepared. Intelligence is your spellcasting ability for these spells. You can cast these spells without expending a spell slot by expending a Psionic Energy Die. You can also cast these spells using any spell slots you have of an appropriate level."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "item",
+							"name": "Repeatable",
+							"entries": [
+								"You can take this feat more than once, but you must choose a different option for Illithid Specialization each time."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Illithid Thrallmaker",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 6,
+			"category": "Path of Ceremorphosis",
+			"prerequisite": [
+				{
+					"feat": [
+						"tadpole host|XUA2026UnderdarkOptions"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"resource": {
+								"1": [
+									"charm person|XPHB"
+								]
+							}
+						}
+					},
+					"ability": "int",
+					"resourceName": "Psionic Energy Die"
+				}
+			],
+			"entries": [
+				"You have honed your psionic ability to become a master manipulator. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"page": 6,
+					"items": [
+						{
+							"type": "item",
+							"name": "Psionic Energy Dice",
+							"entries": [
+								"The Psionic Energy Dice granted to you by this feat path become d8s."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Telepathy",
+							"entries": [
+								"You have {@variantrule Telepathy|XPHB} with a range of 10 feet. If you already have {@variantrule Telepathy|XPHB}, your range increases by 10 feet."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Persuasive Presence",
+							"entries": [
+								"You always have the {@spell Charm Person|XPHB} spell prepared. Intelligence is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending a Psionic Energy Die. You can also cast the spell using any spell slots you have. When you expend a Psionic Energy Die to cast the spell, roll the expended die. One target of the spell subtracts half the number rolled (round up) from its saving throw against the spell."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tadpole Host",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 5,
+			"category": "Path of Ceremorphosis",
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"innate": {
+						"_": [
+							"mind sliver|XPHB#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You begin a symbiotic relationship with the mind flayer tadpole in your body. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"page": 5,
+					"items": [
+						{
+							"type": "item",
+							"name": "Mind Sliver",
+							"entries": [
+								"You learn the {@spell Mind Sliver|XPHB} cantrip. Intelligence is your spellcasting ability for this spell."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Psionic Power",
+							"entries": [
+								"The wellspring of psionic energy provided to you by your tadpole is represented by Psionic Energy Dice, which fuel the powers you have from this feat path.",
+								"You have a number of Psionic Energy Dice equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. When you take this feat, your Psionic Energy Die is a {@dice d6}. The die changes when you take feats along the {@charoption Path of Ceremorphosis|XUA2026UnderdarkOptions}.",
+								"Any features in this feat path that use a Psionic Energy Die use only the dice from this feat path. Some of your features expend Psionic Energy Dice, as specified in a feature's description, and you can't use a feature if it requires you to use a die when all your Psionic Energy Dice are expended.",
+								"You regain all expended Psionic Energy Dice when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Psionic Overload",
+							"entries": [
+								"Whenever you deal Psychic damage, you can expend a Psionic Energy Die to roll the die and deal extra Psychic damage equal to the number rolled."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tadpole's Safeguard",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 6,
+			"category": "Path of Ceremorphosis",
+			"prerequisite": [
+				{
+					"feat": [
+						"tadpole host|XUA2026UnderdarkOptions"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"resource": {
+								"1": [
+									"shield|XPHB"
+								]
+							}
+						}
+					},
+					"ability": "int",
+					"resourceName": "Psionic Energy Die"
+				}
+			],
+			"entries": [
+				"Your tadpole has a vested interest in protecting its shell while it incubates. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"page": 6,
+					"items": [
+						{
+							"type": "item",
+							"name": "Psionic Energy Dice",
+							"entries": [
+								"The Psionic Energy Dice granted to you by this feat path become d8s."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Telepathy",
+							"entries": [
+								"You have {@variantrule Telepathy|XPHB} with a range of 10 feet. If you already have {@variantrule Telepathy|XPHB}, your range increases by 10 feet."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Warding Backlash",
+							"entries": [
+								"You always have the {@item Shield|XPHB} spell prepared. Intelligence is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending a Psionic Energy Die. You can also cast the spell using any spell slots you have. When you expend a Psionic Energy Die to cast the spell and cause the triggering attack to miss, roll the expended die. The attacker takes Psychic damage equal to the number rolled."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ulitharid's Might",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 6,
+			"category": "Path of Ceremorphosis",
+			"prerequisite": [
+				{
+					"feat": [
+						"tadpole host|XUA2026UnderdarkOptions"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						]
+					}
+				}
+			],
+			"entries": [
+				"The tadpole you ingested is mutating you into an {@creature ulitharid|MPMM}, a rare type of illithid that boasts great physical strength and mental power, as well as two additional tentacles.",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"page": 6,
+					"items": [
+						{
+							"type": "item",
+							"name": "Psionic Energy Dice",
+							"entries": [
+								"The Psionic Energy Dice granted to you by this feat path become d8s."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Telepathy",
+							"entries": [
+								"You have {@variantrule Telepathy|XPHB} with a range of 10 feet. If you already have {@variantrule Telepathy|XPHB}, the range increases by 10 feet."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Extended Tentacles",
+							"entries": [
+								"Two long tentacles sprout from around your mouth. You can use these tentacles to make an {@variantrule Unarmed Strike|XPHB}. When you're using these tentacles, your reach increases by 5 feet."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"charoption": [
+		{
+			"name": "Path of Ceremorphosis",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 5,
+			"optionType": [
+				"PTH"
+			],
+			"entries": [
+				"Ceremorphosis is the process by which {@creature mind flayer|XMM|mind flayers} create more mind flayers. They incubate their tadpole young in the tank that houses their colony's {@creature elder brain|MPMM}. When a tadpole is ready, they insert it into the body of a suitable host. During the transformative period that ensues, the host gains access to psychic powers even before the new illithid's more monstrous parts begin to develop.",
+				"The best hosts are typically humanoids capable of great physical, mental, and magical feats\u2014in other words, adventurers.",
+				{
+					"type": "entries",
+					"name": "From Tadpole to Transformation",
+					"page": 5,
+					"entries": [
+						"Ceremorphosis is typically a parasitic relationship in which a tadpole eats the mind of its host and takes over the host's body. The resulting mind flayer retains the memories of its host but is an entirely different creature with its own thoughts and motivations. This mind flayer is subject to the will of an elder brain, a powerful leader of a mind flayer colony.",
+						"Ceremorphosis usually occurs quickly, but your path to becoming a mind flayer is different from traditional methods. As you take feats along this path, imagine what you might look like at every stage of this process. Your skin could turn a deeper violet with each feat you take, or your eyes might change color and shape.",
+						"Something prevents you from giving yourself over to the whims of the elder brain. Roll on or choose from the {@table Ceremorphosis Variables|XUA2026UnderdarkOptions} table to inspire what protects you from this foul influence.",
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2026UnderdarkOptions",
+							"name": "Ceremorphosis Variables",
+							"page": 5,
+							"slotSize": "360"
+						},
+						{
+							"type": "inset",
+							"name": "Elder Brain Control",
+							"page": 5,
+							"entries": [
+								"Roleplaying the relationship between a burgeoning mind flayer and an elder brain can be a fun part of this path, but it requires a conversation with your DM. Whatever you decide, make sure both you and the DM agree on the terms of the relationship. Some topics you might discuss include the following:",
+								{
+									"type": "list",
+									"items": [
+										"How does the elder brain communicate with your character\u2014through words, images, or impulses?",
+										"Is the elder brain open about its true nature, or does it pretend to be the character's deity or trusted ally?",
+										"What are the consequences for your character if they defy the elder brain's orders?",
+										"What, if anything, can the elder brain force your character to do? How does your character resist?"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Path of Ceremorphosis Feats",
+					"page": 5,
+					"entries": [
+						"The following Path of Ceremorphosis feats represent one path a character can take to become a mind flayer. To complete the Path of Ceremorphosis, begin by taking the {@feat Tadpole Host|XUA2026UnderdarkOptions} feat, followed by any other Path of Ceremorphosis feat you choose. Finally, when you reach level 12 or higher, take the {@feat Full Ceremorphosis|XUA2026UnderdarkOptions} feat.",
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026UnderdarkOptions",
+							"name": "Tadpole Host",
+							"page": 5,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026UnderdarkOptions",
+							"name": "Illithid Thrallmaker",
+							"page": 6,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026UnderdarkOptions",
+							"name": "Tadpole's Safeguard",
+							"page": 6,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026UnderdarkOptions",
+							"name": "Ulitharid's Might",
+							"page": 6,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026UnderdarkOptions",
+							"name": "Full Ceremorphosis",
+							"page": 6,
+							"collapsed": true
+						},
+						{
+							"type": "inset",
+							"name": "Mind Blast",
+							"page": 7,
+							"entries": [
+								"The {@feat Full Ceremorphosis|XUA2026UnderdarkOptions} feat grants the {@spell Mind Blast|XUA2026UnderdarkOptions} spell, provided here:",
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2026UnderdarkOptions",
+									"name": "Mind Blast",
+									"page": 7,
+									"slotSize": "360"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Mind Blast",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 7,
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You unleash a concussive burst of psionic energy. Each creature in a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} originating from you makes an Intelligence saving throw. On a failed save, the creature takes {@damage 6d8} Psychic damage and has the {@condition Stunned|XPHB} condition until the start of your next turn. On a successful save, the creature takes half as much damage only."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The damage increases by {@dice 1d8} for each spell slot level above 6."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "XUA2025Psion"
+					}
+				]
+			},
+			"feats": [
+				{
+					"name": "Full Ceremorphosis",
+					"source": "XUA2026UnderdarkOptions"
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"savingThrow": [
+				"intelligence"
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Ceremorphosis Variables",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 5,
+			"colLabels": [
+				"1d6",
+				"You're Protected from the {@creature Elder Brain|MPMM} By..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"A blessing from your deity, given unconditionally."
+				],
+				[
+					"2",
+					"The interference of an archdevil you've sold your soul to."
+				],
+				[
+					"3",
+					"The elder brain's desire to see what happens if a host retains its autonomy."
+				],
+				[
+					"4",
+					"A one-of-a-kind helm that the Society of Brilliance infused with Abjuration magic."
+				],
+				[
+					"5",
+					"A mind and personality so awful that they deter the elder brain from interacting with you."
+				],
+				[
+					"6",
+					"The interference of another elder brain vying for control over your mind."
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2026: Underdark Options",
+			"id": "XUA2026UnderdarkOptions",
+			"source": "XUA2026UnderdarkOptions",
+			"group": "prerelease",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026UnderdarkOptions/cover.webp"
+			},
+			"published": "2026-08-20",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2026: Underdark Options",
+					"headers": [
+						"What's Inside",
+						{
+							"header": "Content Warning",
+							"depth": 1
+						},
+						"Subclasses",
+						{
+							"header": "Path of Unlight (Barbarian)",
+							"depth": 1
+						},
+						{
+							"header": "House Agent (Rogue)",
+							"depth": 1
+						},
+						{
+							"header": "Imaskarcanist (Wizard)",
+							"depth": 1
+						},
+						"Path of Ceremorphosis",
+						{
+							"header": "From Tadpole to Transformation",
+							"depth": 1
+						},
+						{
+							"header": "Path of Ceremorphosis Feats",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2026UnderdarkOptions",
+			"source": "XUA2026UnderdarkOptions",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2026: Underdark Options",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book Player's Handbook|XPHB}.",
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"This document presents three new subclasses:",
+								{
+									"type": "list",
+									"items": [
+										"{@class Barbarian} ({@class Barbarian|XPHB|Path of Unlight|Unlight|XUA2026UnderdarkOptions})",
+										"{@class Rogue} ({@class Rogue|XPHB|House Agent|House Agent|XUA2026UnderdarkOptions})",
+										"{@class Wizard} ({@class Wizard|XPHB|Imaskarcanist|Imaskarcanist|XUA2026UnderdarkOptions})"
+									]
+								},
+								"This document also includes a new transformative path of feats: the {@charoption Path of Ceremorphosis|XUA2026UnderdarkOptions}.",
+								{
+									"type": "entries",
+									"name": "Content Warning",
+									"page": 1,
+									"entries": [
+										"This material contains descriptions of body horror, damage to the eyes and brain, ingested parasites, and the idea that you are slowly losing control of yourself. Some readers might find this content disturbing."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from the {@book Dungeon Master's Guide|XDMG|3|Adventure Examples} or a source like {@adventure Dragon Delves|DrDe-BD}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Subclasses",
+							"page": 1,
+							"entries": [
+								"This section presents the following subclasses: {@class Barbarian|XPHB|Path of Unlight|Unlight|XUA2026UnderdarkOptions}, {@class Rogue|XPHB|House Agent|House Agent|XUA2026UnderdarkOptions}, and {@class Wizard|XPHB|Imaskarcanist|Imaskarcanist|XUA2026UnderdarkOptions}.",
+								{
+									"type": "entries",
+									"name": "Path of Unlight (Barbarian)",
+									"page": 1,
+									"entries": [
+										"{@i Unleash your inner light as blazing fury}",
+										{
+											"type": "inset",
+											"name": "What is Unlight?",
+											"page": 1,
+											"entries": [
+												"The city of Deep Imaskar, home to the descendants of the ancient Imaskari empire, lies in one of the lowest levels of the Underdark. The Deep Imaskari wield a magical force known as Unlight, taught to them by {@i Imaskarcana}, sentient grimoires penned by ancient wizard-kings of the lost Imaskari empire.",
+												"The Deep Imaskari used Unlight to create the Great Seal, a magical symbol that protects and illuminates their city while nourishing crops that allow the Deep Imaskari to survive in the Underdark. But Unlight can also be used to corrupt and destroy, burning creatures from within until they die in a fiery explosion of brilliant light."
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026UnderdarkOptions",
+											"name": "Path of Unlight",
+											"className": "Barbarian",
+											"classSource": "XPHB",
+											"page": 1,
+											"shortName": "Unlight"
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "House Agent (Rogue)",
+									"page": 2,
+									"entries": [
+										"{@i Outwit Your Foes with Charm and Subterfuge}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026UnderdarkOptions",
+											"name": "House Agent",
+											"className": "Rogue",
+											"classSource": "XPHB",
+											"page": 2,
+											"shortName": "House Agent"
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Imaskarcanist (Wizard)",
+									"page": 4,
+									"entries": [
+										"{@i Master the Secrets of Unlight and the Artifacts of Ancient Imaskar}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026UnderdarkOptions",
+											"name": "Imaskarcanist",
+											"className": "Wizard",
+											"classSource": "XPHB",
+											"page": 4,
+											"shortName": "Imaskarcanist"
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Eldritch Invocations",
+									"page": 5,
+									"entries": [
+										"The following two Eldritch Invocations complement the {@class Warlock|XPHB|Primordial Patron|Primordial|XUA2026UnderdarkOptions}.",
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2026UnderdarkOptions",
+											"name": "Elemental Overflow",
+											"page": 5
+										},
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2026UnderdarkOptions",
+											"name": "Elemental Transmutation",
+											"page": 5
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Path of Ceremorphosis",
+							"page": 5,
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "charoption",
+									"source": "XUA2026UnderdarkOptions",
+									"name": "Path of Ceremorphosis",
+									"page": 5,
+									"slotSize": "1000"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
