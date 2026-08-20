@@ -585,7 +585,7 @@
 			"classSource": "XPHB",
 			"subclassShortName": "Imaskarcanist",
 			"subclassSource": "XUA2026UnderdarkOptions",
-			"level": 6,
+			"level": 3,
 			"header": 2,
 			"entries": [
 				"You can imbue creatures with Unlight drawn from your own energy, making them stronger and fiercer. As a {@variantrule Bonus action|XPHB}, choose a willing creature you can see within 30 feet of you and roll one or two of your {@variantrule Hit Point Dice|XPHB}. Those dice are then expended. The target gains {@variantrule Temporary Hit Points|XPHB} equal to the total rolled plus your Intelligence modifier, and until the target has no {@variantrule Temporary Hit Points|XPHB}, it has {@variantrule Advantage|XPHB} on Strength checks and sheds {@variantrule Bright Light|XPHB} in a 10-foot radius."
@@ -670,7 +670,6 @@
 				"When a creature takes Radiant damage from a spell you cast, you can take a {@variantrule Reaction|XPHB} to curse that creature with Unlight. The creature makes a Constitution save against {@dcYourSpellSave}. On a failure, the creature is cursed. Until the curse ends, the target suffers the following effects:",
 				{
 					"type": "list",
-					"style": "list-hang",
 					"page": 4,
 					"items": [
 						"The target emits {@variantrule Bright Light|XPHB} in a 20-foot radius.",
