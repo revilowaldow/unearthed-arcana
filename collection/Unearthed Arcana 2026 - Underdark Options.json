@@ -24,6 +24,62 @@
 	},
 	"subclass": [
 		{
+			"name": "House Agent",
+			"shortName": "House Agent",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"page": 2,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": {
+							"_": [
+								"friends|XPHB#c"
+							],
+							"daily": {
+								"1e": [
+									"charm person|XPHB"
+								]
+							},
+							"ritual": [
+								"find familiar|XPHB"
+							]
+						},
+						"5": {
+							"daily": {
+								"1e": [
+									"suggestion|XPHB"
+								]
+							}
+						},
+						"9": {
+							"daily": {
+								"1e": [
+									"hypnotic pattern|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"friends|XPHB#c",
+				"charm person|XPHB",
+				"find familiar|XPHB",
+				"suggestion|XPHB",
+				"hypnotic pattern|XPHB"
+			],
+			"subclassFeatures": [
+				"House Agent|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions",
+				"Backstab|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|9|XUA2026UnderdarkOptions",
+				"Infiltration Partner|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|13|XUA2026UnderdarkOptions",
+				"Silver Tongue|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|13|XUA2026UnderdarkOptions",
+				"Subtle Manipulator|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|17|XUA2026UnderdarkOptions"
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Path of Unlight",
 			"shortName": "Unlight",
 			"source": "XUA2026UnderdarkOptions",
@@ -41,6 +97,16 @@
 		}
 	],
 	"subclassFluff": [
+		{
+			"name": "House Agent",
+			"shortName": "House Agent",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Outwit Your Foes with Charm and Subterfuge}"
+			]
+		},
 		{
 			"name": "Path of Unlight",
 			"shortName": "Unlight",
@@ -193,6 +259,219 @@
 				"As a {@variantrule Bonus Action|XPHB}, you unleash blinding brilliance. When you do, each creature of your choice within 30 feet of you makes a Constitution saving throw ({@dc 8} plus your Strength modifier and {@table Proficiency Bonus|XPHB}). On a failed save, a creature takes {@damage 1d12} Radiant damage and has the {@condition Blinded|XPHB} condition until the end of your next turn. On a successful save, a creature takes half damage only.",
 				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend a use of your {@classFeature Rage|Barbarian|XPHB|1|XPHB} (no action required) to restore your use of it."
 			]
+		},
+		{
+			"name": "House Agent",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The drow houses of Menzoberranzan conspire against each other in a great game of status and sabotage that expands far beyond the city's limits. When a house needs a specialized tool to further its interests without arousing suspicion, it calls in a house agent.",
+				"Using the tools and training of their sponsor, a house agent is a master infiltrator, capable of insinuating themself into their target's life and striking while their target's back is turned.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Loyalty Test|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "House Insignia|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Charming Presence|Rogue|XPHB|House Agent|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				}
+			]
+		},
+		{
+			"name": "Charming Presence",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You can take the {@action Influence|XPHB} action as a {@variantrule Bonus Action|XPHB}. Additionally, choose one of the following skills: {@skill Deception|XPHB}, {@skill Intimidation|XPHB}, or {@skill Performance|XPHB}, or {@skill Persuasion|XPHB}. You have proficiency in that skill."
+			]
+		},
+		{
+			"name": "House Insignia",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain a magical token in the form of a brooch or coin that marks you as an agent of your sponsor and that bears their heraldry. While you have this insignia, you can cast certain spells with it. Charisma is your spellcasting ability for spells you cast with your insignia.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"page": 3,
+					"items": [
+						{
+							"type": "item",
+							"name": "Cantrips",
+							"entries": [
+								"You learn the {@spell Friends|XPHB} cantrip."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Find Familiar",
+							"entries": [
+								"You can cast the {@spell Find Familiar|XPHB} spell but only as a {@variantrule Ritual|XPHB}. Your sponsor provides the Material component for your first casting of this spell. You must choose the {@creature Spider|XMM} form for your familiar."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Insignia Spells",
+							"entries": [
+								"When you reach a level specified in the {@table Insignia Spells|XUA2026UnderdarkOptions} table, you learn the listed spells. Once you cast a spell using your insignia, you can't cast that spell again until you finish a {@variantrule Long Rest|XPHB}.",
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2026UnderdarkOptions",
+									"name": "Insignia Spells",
+									"page": 3
+								}
+							]
+						},
+						{
+							"type": "item",
+							"name": "Losing Your Insignia",
+							"entries": [
+								"If you lose your insignia, your house finds a way to deliver you a new one, whether it is via a courier, a magical familiar, teleportation magic, or some other method. Your new insignia is delivered to you when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Loyalty Test",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Each house agent is required to prove their loyalty before their sponsor allows them into the inner circles of the organization. You can roll on or choose a result from the {@table House Agent Origins|XUA2026UnderdarkOptions} table to inspire the incident that made you a full-fledged member of your house.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026UnderdarkOptions",
+					"name": "House Agent Origins",
+					"page": 2
+				},
+				{
+					"type": "inset",
+					"name": "Using Other Sponsors",
+					"page": 2,
+					"entries": [
+						"Though this Rogue is designed to work with the backing of a drow house of Menzoberranzan, a House Agent might instead have the backing of another large group. They could belong to a duergar clan, a religious order, or a faction such as Bregan D'Aerthe or the Zhentarim. Or your Rogue could have had multiple sponsors\u2014perhaps they first worked for a drow house, then defected to serve another cause."
+					]
+				}
+			]
+		},
+		{
+			"name": "Backstab",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"You have {@variantrule Advantage|XPHB} on attack rolls against creatures within 5 feet of you that are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you or have the {@condition Charmed|XPHB} Condition. You also gain the following {@classFeature Cunning Strike|Rogue|XPHB|5|XPHB} option.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"page": 3,
+					"items": [
+						{
+							"type": "item",
+							"name": "Stunning Betrayal (Cost: {@dice 4d6})",
+							"entries": [
+								"If your target was {@variantrule Friendly [Attitude]|XPHB|Friendly} to you or had the {@condition Charmed|XPHB} condition when you hit it, the target has the {@condition Stunned} condition until the start of your next turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Infiltration Partner",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"The familiar you have through the {@spell Find Familiar|XPHB} spell gains {@sense Darkvision|XPHB} with a range of 120 feet and {@sense Truesight|XPHB} with a range of 30 feet.",
+				"Additionally, when you cast the {@spell Find Familiar|XPHB} spell or finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} while you have a familiar, you can grant your familiar {@variantrule Temporary Hit Points|XPHB} equal to your {@class Rogue|XPHB} level."
+			]
+		},
+		{
+			"name": "Silver Tongue",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"A creature's {@variantrule Hostile [Attitude]|XPHB|Hostile} attitude doesn't impose {@variantrule Disadvantage|XPHB} on your Charisma checks to influence that creature."
+			]
+		},
+		{
+			"name": "Subtle Manipulator",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"You gain the following {@classFeature Cunning Strike|Rogue|XPHB|5|XPHB} option.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"page": 3,
+					"items": [
+						{
+							"type": "item",
+							"name": "Confound ({@dice 5d6})",
+							"entries": [
+								"The target must succeed on a Wisdom saving throw with a DC equal to your spellcasting DC or have the {@condition Charmed|XPHB} condition for 1 minute. The target can repeat the save when it takes any damage, ending the effect on itself on a success"
+							]
+						}
+					]
+				},
+				"Additionally, you can cast the {@spell Friends|XPHB} spell as a {@variantrule Bonus Action|XPHB}. The target no longer automatically succeeds on the saving throw if it isn't a Humanoid or if you're fighting it.",
+				"Finally, when a spell you cast that gives a target the {@condition Charmed|XPHB} condition ends, the target doesn't know it was {@condition Charmed|XPHB} by you."
+			]
 		}
 	],
 	"foundrySubclassFeature": [
@@ -223,6 +502,30 @@
 			"entryData": {
 				"resist": [
 					"radiant"
+				]
+			}
+		},
+		{
+			"name": "Charming Presence",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "House Agent",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"choose": {
+							"from": [
+								"deception",
+								"intimidation",
+								"performance",
+								"persuasion"
+							],
+							"count": 1
+						}
+					}
 				]
 			}
 		}
@@ -798,6 +1101,72 @@
 				[
 					"6",
 					"The interference of another elder brain vying for control over your mind."
+				]
+			]
+		},
+		{
+			"name": "House Agent Origins",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 2,
+			"colLabels": [
+				"1d6",
+				"You Proved Your Loyalty By..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Taking the fall for another person's crime and serving their jail sentence."
+				],
+				[
+					"2",
+					"Assassinating a powerful political figure."
+				],
+				[
+					"3",
+					"Renouncing all personal ties and worldly possessions and adopting a new identity."
+				],
+				[
+					"4",
+					"Uncovering an incriminating secret about a member of another house."
+				],
+				[
+					"5",
+					"Withstanding a torturous interrogation without divulging house secrets."
+				],
+				[
+					"6",
+					"Sacrificing a family member for the benefit of your sponsor."
+				]
+			]
+		},
+		{
+			"name": "Insignia Spells",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"colLabels": [
+				"Rogue Level",
+				"Prepared Spells"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-8"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Charm Person|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Suggestion|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Hypnotic Pattern|XPHB}"
 				]
 			]
 		},
