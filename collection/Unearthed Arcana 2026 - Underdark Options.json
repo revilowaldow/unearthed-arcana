@@ -80,6 +80,37 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Imaskarcanist",
+			"shortName": "Imaskarcanist",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 3,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"10": {
+							"daily": {
+								"1": [
+									"glyph of warding|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"glyph of warding|XPHB"
+			],
+			"subclassFeatures": [
+				"Imaskarcanist|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions",
+				"Unlight Restoration|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|6|XUA2026UnderdarkOptions",
+				"Secrets of Deep Imaskar|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|10|XUA2026UnderdarkOptions",
+				"Doom of Unlight|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|14|XUA2026UnderdarkOptions"
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Path of Unlight",
 			"shortName": "Unlight",
 			"source": "XUA2026UnderdarkOptions",
@@ -105,6 +136,16 @@
 			"classSource": "XPHB",
 			"entries": [
 				"{@i Outwit Your Foes with Charm and Subterfuge}"
+			]
+		},
+		{
+			"name": "Imaskarcanist",
+			"shortName": "Imaskarcanist",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Master the Secrets of Unlight and the Artifacts of Ancient Imaskar}"
 			]
 		},
 		{
@@ -472,6 +513,175 @@
 				"Additionally, you can cast the {@spell Friends|XPHB} spell as a {@variantrule Bonus Action|XPHB}. The target no longer automatically succeeds on the saving throw if it isn't a Humanoid or if you're fighting it.",
 				"Finally, when a spell you cast that gives a target the {@condition Charmed|XPHB} condition ends, the target doesn't know it was {@condition Charmed|XPHB} by you."
 			]
+		},
+		{
+			"name": "Imaskarcanist",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Imaskarcanists have learned the ancient secrets of Deep Imaskar, a once-human society living in the deepest depths of the Underdark. Through these eldritch arts\u2014taught to the Deep Imaskari by sentient artifacts called the {@i Imaskarcana}\u2014they have mastered the power of Unlight, a brilliant, destructive, and infectious energy that can be used to both heal and destroy. With this power, the Deep Imaskari have launched a war of conquest to bring light to every corner of the Underdark. Each Imaskarcanist must decide for themself whether to aid the conquering army or use their power against it and preserve the comforting darkness of the world below.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Learning the Secrets of Unlight|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unlight Adept|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unlight Invigoration|Wizard|XPHB|Imaskarcanist|XUA2026UnderdarkOptions|3|XUA2026UnderdarkOptions"
+				}
+			]
+		},
+		{
+			"name": "Learning the Secrets of Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Unlight is a rare form of magic known to very few. You can roll on or choose a result from the {@table Secrets of Unlight|XUA2026UnderdarkOptions} table to inspire how your character learned about this secret magic.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026UnderdarkOptions",
+					"name": "Secrets of Unlight",
+					"page": 4
+				}
+			]
+		},
+		{
+			"name": "Unlight Adept",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 4,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You know how to weave Unlight into your damaging spells. When you cast a spell that deals Acid, Cold, Fire, Lightning, or Thunder damage, you can change that damage type to Radiant.",
+				"In addition, {@variantrule Dim Light|XPHB} created by spells you cast is {@variantrule Bright Light|XPHB} instead."
+			]
+		},
+		{
+			"name": "Unlight Invigoration",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 4,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You can imbue creatures with Unlight drawn from your own energy, making them stronger and fiercer. As a {@variantrule Bonus action|XPHB}, choose a willing creature you can see within 30 feet of you and roll one or two of your {@variantrule Hit Point Dice|XPHB}. Those dice are then expended. The target gains {@variantrule Temporary Hit Points|XPHB} equal to the total rolled plus your Intelligence modifier, and until the target has no {@variantrule Temporary Hit Points|XPHB}, it has {@variantrule Advantage|XPHB} on Strength checks and sheds {@variantrule Bright Light|XPHB} in a 10-foot radius."
+			]
+		},
+		{
+			"name": "Unlight Restoration",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 4,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You can wield the restorative effects of Unlight to heal injuries and remove harmful effects. As a {@variantrule Bonus action|XPHB}, choose a creature you can see within 30 feet of you and roll one or two of your {@variantrule Hit Point Dice|XPHB}. Those dice are then expended. The target regains {@variantrule Hit Points|XPHB} equal to the total rolled and sheds {@variantrule Bright Light|XPHB} in a 10-foot radius until the end of its next turn.",
+				"If you expended two {@variantrule Hit Point Dice|XPHB}, you can choose to end one of the following conditions on the target: {@condition Blinded|XPHB}, {@condition Deafened|XPHB}, {@condition Paralyzed|XPHB}, or {@condition Poisoned|XPHB}. If you do, the target does not regain {@variantrule Hit Points|XPHB}."
+			]
+		},
+		{
+			"name": "Secrets of Deep Imaskar",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 4,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Your research into the secrets of the Imaskarcana grants you the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"page": 4,
+					"items": [
+						{
+							"type": "item",
+							"name": "Imaskarcana Lore",
+							"entries": [
+								"You can attune yourself to a magic item as a {@action Magic|XPHB} action. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Piercing Unlight",
+							"entries": [
+								"Your spells ignore {@variantrule Resistance|XPHB} to Radiant damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Unlight Resilience",
+							"entries": [
+								"You gain {@variantrule Resistance|XPHB} to Radiant damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Imaskar Seals",
+							"entries": [
+								"You always have the {@spell Glyph of Warding|XPHB} spell prepared and can cast it once without a spell slot. When you cast the spell in this way, you don't need Material components, you cast the spell as if using a spell slot equal to the highest Wizard spell slot you have. Any previous glyph you created in this way is broken, and its spell ends without being triggered. You regain the ability to cast {@spell Glyph of Warding|XPHB} in this way when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Doom Of Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 4,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You can curse your enemies with corrosive Unlight, and the only escape from the curse is physical violence or an explosive death.",
+				"When a creature takes Radiant damage from a spell you cast, you can take a {@variantrule Reaction|XPHB} to curse that creature with Unlight. The creature makes a Constitution save against {@dcYourSpellSave}. On a failure, the creature is cursed. Until the curse ends, the target suffers the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"page": 4,
+					"items": [
+						"The target emits {@variantrule Bright Light|XPHB} in a 20-foot radius.",
+						"Attack rolls against the target have {@variantrule Advantage|XPHB}.",
+						"At the start of each of the target's turns, it takes Radiant damage equal to your character level.",
+						"The target has {@variantrule Advantage|XPHB} on Strength checks and melee attack rolls.",
+						"If the target hits another creature with a melee attack roll, the target can repeat the Constitution save, ending this curse on a success.",
+						"If the target is reduced to 0 {@variantrule Hit Points|XPHB}, it explodes. Roll a number of {@dice d8|d8s} equal to half your character level. Creatures in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} centered on the target take Radiant damage equal to the total rolled."
+					]
+				},
+				"Once you have attempted to curse a creature using this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB} or until you expend a level 6+ spell slot (no action required)."
+			]
 		}
 	],
 	"foundrySubclassFeature": [
@@ -526,6 +736,20 @@
 							"count": 1
 						}
 					}
+				]
+			}
+		},
+		{
+			"name": "Secrets of Deep Imaskar",
+			"source": "XUA2026UnderdarkOptions",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Imaskarcanist",
+			"subclassSource": "XUA2026UnderdarkOptions",
+			"level": 10,
+			"entryData": {
+				"resist": [
+					"radiant"
 				]
 			}
 		}
@@ -1167,6 +1391,45 @@
 				[
 					"9",
 					"{@spell Hypnotic Pattern|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Secrets of Unlight",
+			"source": "XUA2026UnderdarkOptions",
+			"page": 4,
+			"colLabels": [
+				"1d6",
+				"You Learned About Unlight When..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"You were taught by a refugee from Deep Imaskar who brought this knowledge to the surface world."
+				],
+				[
+					"2",
+					"You heard whispers in your dreams in a language you inexplicably understood."
+				],
+				[
+					"3",
+					"You discovered written records left behind by a long-dead Imaskari wizard."
+				],
+				[
+					"4",
+					"You were apprenticed to a Deep Imaskari wizard in the depths of the Underdark, but you escaped."
+				],
+				[
+					"5",
+					"You heard rumors of this power from Underdark refugees, then pieced its secrets together through laborious research."
+				],
+				[
+					"6",
+					"A mind flayer gave you notes salvaged from a Deep Imaskari whose brain the creature had eaten."
 				]
 			]
 		},
