@@ -11,6 +11,7 @@
 		"build:clean:base": "node _node/clean-and-test.js",
 		"build:clean:html": "clean-html",
 		"test:json": "test-json-ua",
+		"test:dependencies": "test-dependencies",
 		"test:clean": "npm run build:clean:base -- --dry",
 		"test:file-contents": "test-file-contents --img-repo-name unearthed-arcana-img --url-prefix-expected https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/",
 		"test:file-locations": "test-file-locations",
@@ -21,7 +22,7 @@
 		"test:html": "node _test/test-html.js",
 		"test:js": "eslint . --ext .js,.cjs,.mjs",
 		"lint:js": "npm run test:js -- --fix",
-		"test": "npm run test:clean && npm run test:json && npm run test:file-locations && npm run test:file-names && npm run test:file-props && npm run test:img-directories && npm run test:file-contents && npm run test:edition-sources && npm run test:html && npm run test:js",
+		"test": "npm run test:clean && npm run test:json && npm run test:dependencies && npm run test:file-locations && npm run test:file-names && npm run test:file-props && npm run test:img-directories && npm run test:file-contents && npm run test:edition-sources && npm run test:html && npm run test:js",
 		"lint": "npm run lint:js"
 	},
 	"author": "Giddy",
