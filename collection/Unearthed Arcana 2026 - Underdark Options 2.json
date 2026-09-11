@@ -198,7 +198,7 @@
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
-							"page": 9,
+							"page": 2,
 							"items": [
 								{
 									"type": "item",
@@ -379,7 +379,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You mystical connection to freedom allows you to swiftly navigate obstacles. Your movement is unaffected by {@variantrule Difficult Terrain|XPHB}.",
+				"Your mystical connection to freedom allows you to swiftly navigate obstacles. Your movement is unaffected by {@variantrule Difficult Terrain|XPHB}.",
 				"In addition, you gain proficiency in Dexterity saving throws. If you already have this proficiency, you instead gain proficiency with one saving throw in which you lack it."
 			]
 		},
@@ -492,7 +492,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@condition Invisible|XPHB} spores fill a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you, providing you with a telepathic link to those who step inside. You have {@variantrule telepathy|XPHB} with a range of 10 feet. If you already have {@variantrule telepathy|XPHB}, your range increases by 10 feet.",
+				"Invisible spores fill a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you, providing you with a telepathic link to those who step inside. You have {@variantrule telepathy|XPHB} with a range of 10 feet. If you already have {@variantrule telepathy|XPHB}, your range increases by 10 feet.",
 				"Additionally, when a creature you can see moves into your {@variantrule Emanation [Area of Effect]|XPHB|Emanation} or starts its turn there, you can use your {@variantrule Reaction|XPHB} to infect the creature with your spores. The target makes a Constitution saving throw against {@dcYourSpellSave}. On a failed save, the target takes {@damage 1d4} Necrotic damage. On a success, the target has {@variantrule Disadvantage|XPHB} on its next attack roll before the end of its turn.",
 				"The Necrotic damage increases to {@damage 1d6} at 6th level, {@damage 1d8} at 10th level, and {@damage 1d10} at 14th level."
 			]
@@ -508,7 +508,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you can expend a use of your {@classFeature Wild Shape|Druid|XPHB|2} feature to waken your spores, rather than for shape-shifting. When you waken your spores, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to four times your {@creature Druid|XMM} level. This awakening lasts for 10 minutes. It ends early if you dismiss it (no action required), have the {@condition Incapacitated|XPHB} condition, or use this feature again. While your spores are awakened, you gain the following benefits.",
+				"As a {@variantrule Bonus Action|XPHB}, you can expend a use of your {@classFeature Wild Shape|Druid|XPHB|2} feature to waken your spores, rather than for shape-shifting. When you waken your spores, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to four times your {@class Druid|XPHB} level. This awakening lasts for 10 minutes. It ends early if you dismiss it (no action required), have the {@condition Incapacitated|XPHB} condition, or use this feature again. While your spores are awakened, you gain the following benefits.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -544,7 +544,7 @@
 			"header": 2,
 			"entries": [
 				"Your spores can infest a corpse and animate it. If a Beast or Humanoid that is Small or Medium dies within 10 feet of you, you can take a {@variantrule Reaction|XPHB} to reanimate it, causing it to stand up immediately with 1 {@variantrule Hit Points|XPHB|Hit Point}. If your {@subclassFeature Symbiotic Entity|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} feature is active, you can transfer any number of {@variantrule Temporary Hit Points|XPHB} you have to your reanimated creature as part of this {@variantrule Reaction|XPHB}.",
-				"The creature uses the {@creature Zombie|XMM} stat block in the {@book Player's Handbook|XPHB|9|Zombie}. It remains animate for 1 hour, at which time it dies. The animation ends early if you end it as a {@variantrule Bonus Action|XPHB} or if the {@creature zombie|XMM} drops to 0 {@variantrule Hit Points|XPHB}.",
+				"The creature uses the {@creature Zombie|XMM} stat block in the {@book Player's Handbook|XPHB|9}. It remains animate for 1 hour, at which time it dies. The animation ends early if you end it as a {@variantrule Bonus Action|XPHB} or if the {@creature zombie|XMM} drops to 0 {@variantrule Hit Points|XPHB}.",
 				"The zombie is an ally to you and your allies. In combat, the zombie shares your {@variantrule Initiative|XPHB} count, but it takes its turn immediately after yours. It obeys your mental commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger.",
 				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a {@variantrule Long Rest|XPHB}."
 			]
@@ -628,9 +628,9 @@
 				{
 					"type": "list",
 					"items": [
-						"Creatures within an area affected by faerzress automatically succeed on saving throws against {@spell Divination|XPHB} effects. Magical sensors and {@condition invisible|XPHB} eyes, such as those created by the {@spell Clairvoyance|XPHB} and {@spell Arcane Eye|XPHB} spells, can't enter an area affected by faerzress.",
+						"Creatures within an area affected by faerzress automatically succeed on saving throws against {@filter Divination|spells|school=D} effects. Magical sensors and invisible eyes, such as those created by the {@spell Clairvoyance|XPHB} and {@spell Arcane Eye|XPHB} spells, can't enter an area affected by faerzress.",
 						"A creature teleporting a distance of 1 mile or more can't {@variantrule Teleportation|XPHB|teleport} into or out of an area affected by faerzress.",
-						"An area affected by faerzress is illuminated by {@variantrule Dim Light|XPHB}, but creatures using {@spell Darkvision|XPHB} within such an area see in color and have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks relying on sight."
+						"An area affected by faerzress is illuminated by {@variantrule Dim Light|XPHB}, but creatures using {@sense Darkvision|XPHB} within such an area see in color and have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks relying on sight."
 					]
 				}
 			]
@@ -709,7 +709,7 @@
 			"header": 2,
 			"entries": [
 				"You ignore the detrimental effects of faerzress (see \"{@subclassFeature Faerzress Effects|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2}\").",
-				"Creatures within an area affected by faerzress don't automatically succeed on saving throws against your {@spell Divination|XPHB} spells. Magical sensors and {@condition invisible} eyes created by spells you cast\u2014such as {@spell Clairvoyance|XPHB} and {@spell Arcane Eye|XPHB}\u2014can enter an area affected by faerzress.",
+				"Creatures within an area affected by faerzress don't automatically succeed on saving throws against your {@filter Divination spells|spells|school=D}. Magical sensors and invisible eyes created by spells you cast\u2014such as {@spell Clairvoyance|XPHB} and {@spell Arcane Eye|XPHB}\u2014can enter an area affected by faerzress.",
 				"When you {@variantrule Teleportation|XPHB|teleport} yourself or other creatures, the teleporting creatures can {@variantrule Teleportation|XPHB|teleport} into or out of an area affected by faerzress regardless of the distance teleported."
 			]
 		},
@@ -724,7 +724,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You gain {@variantrule Resistance|XPHB} to Lightning damage. You also gain {@spell Darkvision|XPHB} with a range of 60 feet. If you already have {@spell Darkvision|XPHB}, its range increases by 30 feet. Unlike with ordinary {@spell Darkvision|XPHB}, you discern color in {@spell Darkness|XPHB}.",
+				"You gain {@variantrule Resistance|XPHB} to Lightning damage. You also gain {@sense Darkvision|XPHB} with a range of 60 feet. If you already have {@sense Darkvision|XPHB}, its range increases by 30 feet. Unlike with ordinary {@sense Darkvision|XPHB}, you discern color in {@variantrule Darkness|XPHB}.",
 				"In addition, you have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks to see in {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}.",
 				"Finally, your {@subclassFeature Immunity to Faerzress|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} feature also applies to allies within 30 feet of you."
 			]
@@ -749,8 +749,8 @@
 					"type": "list",
 					"items": [
 						"The creature can't {@variantrule Teleportation|XPHB|teleport}.",
-						"The creature can't cast Divination spells.",
-						"The creature has {@variantrule Disadvantage|XPHB} on saving throws against Divination spells."
+						"The creature can't cast {@filter Divination spells|spells|school=D}.",
+						"The creature has {@variantrule Disadvantage|XPHB} on saving throws against {@filter Divination spells|spells|school=D}."
 					]
 				}
 			]
@@ -898,9 +898,6 @@
 				"M"
 			],
 			"speed": 30,
-			"traitTags": [
-				"Natural Armor"
-			],
 			"resist": [
 				"radiant"
 			],
@@ -908,7 +905,7 @@
 				"type": "item",
 				"name": "Size:",
 				"entries": [
-					"Medium (about 4-6 feet tall) or Small (about 2-4 feet tall), chosen when you select this species"
+					"Medium (about 4\u20136 feet tall) or Small (about 2\u20134 feet tall), chosen when you select this species"
 				]
 			},
 			"entries": [
@@ -1127,7 +1124,7 @@
 				"type": "item",
 				"name": "Size:",
 				"entries": [
-					"Medium (about 5-6 feet tall) or Small (about 2-4 feet tall), chosen when you select this species"
+					"Medium (about 5\u20136 feet tall) or Small (about 2\u20134 feet tall), chosen when you select this species"
 				]
 			},
 			"entries": [
@@ -1213,7 +1210,7 @@
 					"type": "entries",
 					"name": "Slippery",
 					"entries": [
-						"You have advantage on saving throws to avoid or end the {@condition Grappled|XPHB} and {@condition Restrained|XPHB} conditions."
+						"You have {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition Grappled|XPHB} and {@condition Restrained|XPHB} conditions."
 					]
 				},
 				{
@@ -1248,7 +1245,7 @@
 				"type": "item",
 				"name": "Size:",
 				"entries": [
-					"Medium (about 4-7 feet tall) or Small (about 2-4 feet tall), chosen when you select this species"
+					"Medium (about 4\u20137 feet tall) or Small (about 2\u20134 feet tall), chosen when you select this species"
 				]
 			},
 			"entries": [
@@ -1306,7 +1303,7 @@
 			"source": "XUA2026UnderdarkOptions2",
 			"entries": [
 				"Illithidkin are the wretched byproduct of mind flayer experimentation on humanoid test subjects. These hybrid creatures are bipedal and retain some of the features of their original form, but they also bear some features of a mind flayer\u2014purple skin, wriggling tentacles, and a fledgling psionic aptitude.",
-				"An illithidkin typically has the same life expectancy as their original species , but in some cases the transformation adds years or even decades to\u2014or subtracts as much from\u2014that life expectancy."
+				"An illithidkin typically has the same life expectancy as their original species, but in some cases the transformation adds years or even decades to\u2014or subtracts as much from\u2014that life expectancy."
 			]
 		},
 		{
@@ -1320,7 +1317,7 @@
 					"name": "Mysterious Deities",
 					"page": 7,
 					"entries": [
-						"Most knowledge of the full kuo-toa pantheon has been lost to time. Kuo-toa can't agree on the names of these deities, what forms they take, or what these deities desire. Without a central religious authority, some archpriests invent new idols based on the omens they read. They often lead their villages to venerate krakens, aboleths, or demon lords as the avatars of deities or as deities in their own right. Devotion to such beings often results in the kua-toa's prolonged servitude to a malevolent power or to their outright ruin.",
+						"Most knowledge of the full kuo-toa pantheon has been lost to time. Kuo-toa can't agree on the names of these deities, what forms they take, or what these deities desire. Without a central religious authority, some archpriests invent new idols based on the omens they read. They often lead their villages to venerate krakens, aboleths, or demon lords as the avatars of deities or as deities in their own right. Devotion to such beings often results in the kuo-toa's prolonged servitude to a malevolent power or to their outright ruin.",
 						"To placate their deities, kuo-toa assemble bizarre idols with mismatched pieces inspired by crabs, eels, shrimp, or kuo-toa, often adorned with masses of writhing tentacles. Through a process only a few kuo-toa understand, these idols draw the attention of supernatural powers. Sometimes, they even come to life."
 					]
 				}
@@ -1331,7 +1328,7 @@
 			"source": "XUA2026UnderdarkOptions2",
 			"entries": [
 				"Myconids are bipedal fungal folk who live in close-knit, insular circles. Like mushrooms, they come in many different shapes, sizes, and colors. Some myconids whose circles have had contact with other civilizations have developed features resembling those of other species, such as mouths for speaking or bright-colored caps and ruffles that look like clothing.",
-				"Myconids have relatively short lifespans. They might live a 25 years before returning to the soil to fertilize the next generation of their circle."
+				"Myconids have relatively short lifespans. They might live 25 years before returning to the soil to fertilize the next generation of their circle."
 			]
 		}
 	],
@@ -1571,36 +1568,50 @@
 						"Subclasses",
 						{
 							"header": "Freedom Domain (Cleric)",
-							"depth": 1
+							"depth": 1,
+							"statblock": true,
+							"tag": "subclass",
+							"uid": "freedom|cleric|xphb|xua2026underdarkoptions2"
 						},
 						{
 							"header": "Circle of Spores (Druid)",
-							"depth": 1
+							"depth": 1,
+							"statblock": true,
+							"tag": "subclass",
+							"uid": "spores|druid|xphb|xua2026underdarkoptions2"
 						},
 						{
 							"header": "Faerzress Sorcery (Sorcerer)",
-							"depth": 1
+							"depth": 1,
+							"statblock": true,
+							"tag": "subclass",
+							"uid": "faerzress|sorcerer|xphb|xua2026underdarkoptions2"
 						},
 						"Species",
 						{
 							"header": "Deep Imaskari",
-							"depth": 1
+							"depth": 1,
+							"statblock": true
 						},
 						{
 							"header": "Drider",
-							"depth": 1
+							"depth": 1,
+							"statblock": true
 						},
 						{
 							"header": "Illithidkin",
-							"depth": 1
+							"depth": 1,
+							"statblock": true
 						},
 						{
 							"header": "Kuo-Toa",
-							"depth": 1
+							"depth": 1,
+							"statblock": true
 						},
 						{
 							"header": "Myconid",
-							"depth": 1
+							"depth": 1,
+							"statblock": true
 						}
 					]
 				}
@@ -1627,9 +1638,9 @@
 								{
 									"type": "list",
 									"items": [
-										"{@class Cleric} ({@class Cleric|XPHB|Freedom Domain|Freedom|XUA2026UnderdarkOptions2})",
-										"{@class Druid} ({@class Druid|XPHB|Circle of Spores|Spores|XUA2026UnderdarkOptions2})",
-										"{@class Sorcerer} ({@class Sorcerer|XPHB|Faerzress Sorcery|Faerzress|XUA2026UnderdarkOptions2})"
+										"{@class Cleric|XPHB} ({@class Cleric|XPHB|Freedom Domain|Freedom|XUA2026UnderdarkOptions2})",
+										"{@class Druid|XPHB} ({@class Druid|XPHB|Circle of Spores|Spores|XUA2026UnderdarkOptions2})",
+										"{@class Sorcerer|XPHB} ({@class Sorcerer|XPHB|Faerzress Sorcery|Faerzress|XUA2026UnderdarkOptions2})"
 									]
 								},
 								"This document also includes five new species.",
@@ -1697,7 +1708,7 @@
 										"{@i Spread Liberty and Break Chains}",
 										{
 											"type": "statblock",
-											"prop": "subclass",
+											"tag": "subclass",
 											"source": "XUA2026UnderdarkOptions2",
 											"name": "Freedom Domain",
 											"className": "Cleric",
@@ -1724,7 +1735,7 @@
 												{
 													"type": "list",
 													"style": "list-hang-notitle",
-													"page": 9,
+													"page": 2,
 													"items": [
 														{
 															"type": "item",
@@ -1768,7 +1779,7 @@
 										},
 										{
 											"type": "statblock",
-											"prop": "subclass",
+											"tag": "subclass",
 											"source": "XUA2026UnderdarkOptions2",
 											"name": "Circle of Spores",
 											"className": "Druid",
@@ -1787,7 +1798,7 @@
 										"{@i Wield the Weird Radiation of the Underdark.}",
 										{
 											"type": "statblock",
-											"prop": "subclass",
+											"tag": "subclass",
 											"source": "XUA2026UnderdarkOptions2",
 											"name": "Faerzress Sorcery",
 											"className": "Sorcerer",
